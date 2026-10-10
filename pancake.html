@@ -1,0 +1,2497 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         BASIC META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Pancake & Breakfast House - Delicious pancakes, waffles, eggs and breakfast favorites."
+    >
+
+    <meta
+        name="keywords"
+        content="pancake, breakfast, waffles, brunch, breakfast restaurant"
+    >
+
+    <meta
+        name="author"
+        content="Pancake & Breakfast House"
+    >
+
+
+    <!-- =====================================================
+         TITLE
+    ====================================================== -->
+
+    <title>
+        Pancake & Breakfast House
+    </title>
+    <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+
+    <!-- =====================================================
+         GOOGLE FONTS
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="index.html"
+                class="site-logo"
+                aria-label="Pancake & Breakfast House Home"
+            >
+
+                <img
+                    src="images/logo.png"
+                    alt="Pancake & Breakfast House Logo"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 MAIN NAVIGATION
+
+                 IMPORTANT:
+                 This SAME navigation is used for:
+                 Desktop
+                 Tablet
+                 iPad Pro
+                 iPad Mini
+                 Mobile
+            ================================================== -->
+
+            <nav
+                class="main-nav"
+                id="mainNav"
+                aria-label="Main Navigation"
+            >
+
+
+                <!-- =============================================
+                     HOME DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                    >
+
+                        <span>
+                            Home
+                        </span>
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a
+                            href="index.html"
+                           
+                        >
+                            Home 1
+                        </a>
+
+                        <a
+                            href="home2.html"
+                        >
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     ABOUT
+                ============================================== -->
+
+                <a
+                    href="about.html"
+                    class="nav-link"
+                >
+                    About
+                </a>
+
+
+                <!-- =============================================
+                     MENU DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle active"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                    >
+
+                        <span>
+                            Menu
+                        </span>
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a
+                            href="pancake.html"
+                            class="active"
+                        >
+                            Pancakes
+                        </a>
+
+                        <a
+                            href="waffles.html"
+                        >
+                            Waffles
+                        </a>
+
+                        <a
+                            href="egg-dishes.html"
+                        >
+                            Egg Dishes
+                        </a>
+
+                        
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     CATERING & GROUP BOOKINGS
+                ============================================== -->
+
+                <a
+                    href="catering.html"
+                    class="nav-link"
+                >
+                    Catering &amp; Group Bookings
+                </a>
+
+
+                <!-- =============================================
+                     LOCATIONS
+                ============================================== -->
+
+                <a
+                    href="locations.html"
+                    class="nav-link"
+                >
+                    Locations
+                </a>
+
+
+                <!-- =============================================
+                     CONTACT
+                ============================================== -->
+
+                <a
+                    href="contact.html"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+
+                <!-- =============================================
+                     HEADER CONTROLS
+
+                     IMPORTANT:
+                     These remain INSIDE the SAME main-nav.
+
+                     Desktop:
+                     RTL + Dark Mode + Login → right side
+
+                     Responsive:
+                     RTL + Dark Mode + Login → inside
+                     hamburger menu
+                ============================================== -->
+
+                <div
+                    class="header-controls"
+                    id="headerControls"
+                >
+
+
+                    <!-- =========================================
+                         RTL BUTTON
+                    ========================================== -->
+
+                    <button
+                        type="button"
+                        class="header-control-btn rtl-toggle"
+                        id="rtlToggle"
+                        aria-label="Switch to RTL mode"
+                        title="RTL Mode"
+                    >
+
+                        <i
+                            class="fa-solid fa-right-left"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <!-- =========================================
+                         DARK MODE BUTTON
+                    ========================================== -->
+
+                    <button
+                        type="button"
+                        class="header-control-btn dark-mode-toggle"
+                        id="darkModeToggle"
+                        aria-label="Enable dark mode"
+                        title="Dark Mode"
+                    >
+
+                        <i
+                            class="fa-solid fa-moon"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <!-- =========================================
+                         LOGIN
+                    ========================================== -->
+
+                    <a
+                        href="login.html"
+                        class="login-btn"
+                    >
+
+                        <i
+                            class="fa-regular fa-user"
+                            aria-hidden="true"
+                        ></i>
+
+                        <span>
+                            Login
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </nav>
+
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+
+                 Controls the SAME #mainNav
+            ================================================== -->
+
+            <button
+                type="button"
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="mainNav"
+            >
+
+                <i
+                    class="fa-solid fa-bars"
+                    aria-hidden="true"
+                ></i>
+
+            </button>
+
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <main id="mainContent">
+<!-- =========================================================
+     PANCAKES PAGE — SECTION 01
+     PANCAKES HERO
+========================================================= -->
+
+<section class="pancakes-hero" id="pancakesHero">
+
+    <!-- =====================================================
+         HERO BACKGROUND
+    ====================================================== -->
+
+    <div
+        class="pancakes-hero-background"
+        style="background-image: url('images/pancakes-hero.jpg');"
+        aria-hidden="true">
+    </div>
+
+
+    <!-- =====================================================
+         HERO OVERLAY
+    ====================================================== -->
+
+    <div
+        class="pancakes-hero-overlay"
+        aria-hidden="true">
+    </div>
+
+
+    <!-- =====================================================
+         HERO CONTENT
+    ====================================================== -->
+
+    <div class="pancakes-hero-container">
+
+        <div class="pancakes-hero-content">
+
+            <span class="pancakes-hero-eyebrow">
+                OUR PANCAKES
+            </span>
+
+
+            <h1 class="pancakes-hero-title">
+                Fluffy Stacks.
+                <span>Made Fresh.</span>
+            </h1>
+
+
+            <div class="pancakes-hero-divider"></div>
+
+
+            <p class="pancakes-hero-description">
+                Golden, fluffy and made fresh every morning,
+                our pancakes are stacked high and served with
+                the flavors that make breakfast worth waking up for.
+            </p>
+
+
+            <!-- =================================================
+                 HERO ACTIONS
+            ================================================== -->
+
+            <div class="pancakes-hero-actions">
+
+                <a
+                    href="#pancakeMenu"
+                    class="pancakes-hero-button pancakes-hero-button-primary">
+
+                    <span>Explore Pancakes</span>
+
+                    <i
+                        class="fa-solid fa-arrow-down"
+                        aria-hidden="true">
+                    </i>
+
+                </a>
+
+
+                <a
+                    href="order.html"
+                    class="pancakes-hero-button pancakes-hero-button-secondary">
+
+                    <span>Order Now</span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true">
+                    </i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         HERO BOTTOM BRAND LINE
+    ====================================================== -->
+
+    <div class="pancakes-hero-bottom">
+
+        <span class="pancakes-hero-bottom-line"></span>
+
+        <span class="pancakes-hero-bottom-text">
+            PANCAKE &amp; BREAKFAST HOUSE
+        </span>
+
+        <span class="pancakes-hero-bottom-line"></span>
+
+    </div>
+
+
+    <!-- =====================================================
+         SCROLL INDICATOR
+    ====================================================== -->
+
+    <a
+        href="#pancakeStory"
+        class="pancakes-hero-scroll"
+        aria-label="Scroll to pancake story">
+
+        <span class="pancakes-hero-scroll-text">
+            SCROLL TO DISCOVER
+        </span>
+
+        <span class="pancakes-hero-scroll-line"></span>
+
+        <i
+            class="fa-solid fa-arrow-down"
+            aria-hidden="true">
+        </i>
+
+    </a>
+
+</section>
+<!-- =========================================================
+     PANCAKES PAGE — SECTION 02
+     PANCAKE STORY
+========================================================= -->
+
+<section class="pancake-story" id="pancakeStory">
+
+    <div class="pancake-story-container">
+
+        <!-- =================================================
+             LEFT VISUAL
+        ================================================== -->
+
+        <div class="pancake-story-visual">
+
+            <div class="pancake-story-main-image">
+
+                <img
+                    src="images/pancakes-story-main.jpg"
+                    alt="Fresh stack of pancakes prepared at Pancake & Breakfast House"
+                    loading="lazy"
+                >
+
+                <div
+                    class="pancake-story-image-overlay"
+                    aria-hidden="true">
+                </div>
+
+                <div class="pancake-story-image-label">
+
+                    <span class="pancake-story-image-label-number">
+                        01
+                    </span>
+
+                    <span class="pancake-story-image-label-line"></span>
+
+                    <span class="pancake-story-image-label-text">
+                        THE ART OF THE STACK
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 SMALL OVERLAPPING IMAGE
+            ================================================== -->
+
+            <div class="pancake-story-small-image">
+
+                <img
+                    src="images/pancakes-story-small.jpg"
+                    alt="Golden pancakes served with fresh berries and maple syrup"
+                    loading="lazy"
+                >
+
+            </div>
+
+
+            <!-- =================================================
+                 EXPERIENCE BADGE
+            ================================================== -->
+
+            <div class="pancake-story-badge">
+
+                <span class="pancake-story-badge-number">
+                    FRESH
+                </span>
+
+                <span class="pancake-story-badge-text">
+                    EVERY MORNING
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             RIGHT CONTENT
+        ================================================== -->
+
+        <div class="pancake-story-content">
+
+            <span class="pancake-story-eyebrow">
+                THE ART OF THE STACK
+            </span>
+
+
+            <h2 class="pancake-story-title">
+                It Starts With
+                <span>A Good Pancake.</span>
+            </h2>
+
+
+            <div class="pancake-story-divider"></div>
+
+
+            <p class="pancake-story-intro">
+                The perfect pancake begins with simple ingredients,
+                careful preparation and a little patience. Every
+                morning, our kitchen starts fresh so every stack
+                arrives warm, fluffy and ready to make your day better.
+            </p>
+
+
+            <p class="pancake-story-text">
+                We mix our batter with care, cook each pancake
+                until it is beautifully golden and build every
+                stack to order. From classic buttermilk pancakes
+                to our signature creations, every plate is made
+                to be enjoyed slowly and shared generously.
+            </p>
+
+
+            <!-- =================================================
+                 STORY DETAILS
+            ================================================== -->
+
+            <div class="pancake-story-details">
+
+                <div class="pancake-story-detail">
+
+                    <span class="pancake-story-detail-number">
+                        01
+                    </span>
+
+                    <div class="pancake-story-detail-content">
+
+                        <h3>
+                            Fresh Batter
+                        </h3>
+
+                        <p>
+                            Prepared fresh for a light and fluffy
+                            texture in every stack.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="pancake-story-detail">
+
+                    <span class="pancake-story-detail-number">
+                        02
+                    </span>
+
+                    <div class="pancake-story-detail-content">
+
+                        <h3>
+                            Cooked To Order
+                        </h3>
+
+                        <p>
+                            Every pancake is cooked fresh when
+                            your breakfast begins.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="pancake-story-detail">
+
+                    <span class="pancake-story-detail-number">
+                        03
+                    </span>
+
+                    <div class="pancake-story-detail-content">
+
+                        <h3>
+                            Served Warm
+                        </h3>
+
+                        <p>
+                            Finished with delicious toppings and
+                            served straight to your table.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 CTA
+            ================================================== -->
+
+            <a
+                href="#pancakeMenu"
+                class="pancake-story-arrow"
+                aria-label="Discover our pancakes">
+
+                <span class="pancake-story-arrow-text">
+                    Discover Our Pancakes
+                </span>
+
+                <span class="pancake-story-arrow-line"></span>
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true">
+                </i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     PANCAKES PAGE — SECTION 03
+     CLASSIC PANCAKES
+========================================================= -->
+
+<section class="pancake-classics" id="pancakeMenu">
+
+    <div class="pancake-classics-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="pancake-classics-header">
+
+            <span class="pancake-classics-eyebrow">
+                CLASSIC FAVORITES
+            </span>
+
+            <h2 class="pancake-classics-title">
+                The Stacks You
+                <span>Know &amp; Love.</span>
+            </h2>
+
+            <div class="pancake-classics-divider"></div>
+
+            <p class="pancake-classics-intro">
+                From timeless buttermilk pancakes to rich chocolate
+                and fresh fruit favorites, these are the stacks that
+                make every breakfast feel like a good morning.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             PANCAKE MENU GRID
+        ================================================== -->
+
+        <div class="pancake-classics-grid">
+
+
+            <!-- =================================================
+                 ITEM 01 — BUTTERMILK
+            ================================================== -->
+
+            <article class="pancake-classic-item">
+
+                <div class="pancake-classic-image">
+
+                    <img
+                        src="images/pancakes-classic-buttermilk.jpg"
+                        alt="Fluffy buttermilk pancakes served with butter and maple syrup"
+                        loading="lazy"
+                    >
+
+                    <div
+                        class="pancake-classic-image-overlay"
+                        aria-hidden="true">
+                    </div>
+
+                    <span class="pancake-classic-number">
+                        01
+                    </span>
+
+                    <span class="pancake-classic-category">
+                        CLASSIC
+                    </span>
+
+                </div>
+
+
+                <div class="pancake-classic-content">
+
+                    <div class="pancake-classic-heading">
+
+                        <h3 class="pancake-classic-name">
+                            Buttermilk Pancakes
+                        </h3>
+
+                        <span class="pancake-classic-price">
+                            $8.95
+                        </span>
+
+                    </div>
+
+                    <p class="pancake-classic-description">
+                        Fluffy buttermilk pancakes served warm with
+                        whipped butter and pure maple syrup.
+                    </p>
+
+                    <a
+                        href="order.html"
+                        class="pancake-classic-order"
+                        aria-label="Order Buttermilk Pancakes">
+
+                        <span>
+                            Order This Stack
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 02 — BLUEBERRY
+            ================================================== -->
+
+            <article class="pancake-classic-item">
+
+                <div class="pancake-classic-image">
+
+                    <img
+                        src="images/pancakes-classic-blueberry.jpg"
+                        alt="Blueberry pancakes topped with fresh blueberries and maple syrup"
+                        loading="lazy"
+                    >
+
+                    <div
+                        class="pancake-classic-image-overlay"
+                        aria-hidden="true">
+                    </div>
+
+                    <span class="pancake-classic-number">
+                        02
+                    </span>
+
+                    <span class="pancake-classic-category">
+                        FAVORITE
+                    </span>
+
+                </div>
+
+
+                <div class="pancake-classic-content">
+
+                    <div class="pancake-classic-heading">
+
+                        <h3 class="pancake-classic-name">
+                            Blueberry Pancakes
+                        </h3>
+
+                        <span class="pancake-classic-price">
+                            $10.95
+                        </span>
+
+                    </div>
+
+                    <p class="pancake-classic-description">
+                        Golden pancakes filled with fresh blueberries,
+                        finished with powdered sugar and maple.
+                    </p>
+
+                    <a
+                        href="order.html"
+                        class="pancake-classic-order"
+                        aria-label="Order Blueberry Pancakes">
+
+                        <span>
+                            Order This Stack
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 03 — CHOCOLATE CHIP
+            ================================================== -->
+
+            <article class="pancake-classic-item">
+
+                <div class="pancake-classic-image">
+
+                    <img
+                        src="images/pancakes-classic-chocolate.jpg"
+                        alt="Chocolate chip pancakes with whipped cream and chocolate drizzle"
+                        loading="lazy"
+                    >
+
+                    <div
+                        class="pancake-classic-image-overlay"
+                        aria-hidden="true">
+                    </div>
+
+                    <span class="pancake-classic-number">
+                        03
+                    </span>
+
+                    <span class="pancake-classic-category">
+                        INDULGENT
+                    </span>
+
+                </div>
+
+
+                <div class="pancake-classic-content">
+
+                    <div class="pancake-classic-heading">
+
+                        <h3 class="pancake-classic-name">
+                            Choco Chip Pancakes
+                        </h3>
+
+                        <span class="pancake-classic-price">
+                            $10.50
+                        </span>
+
+                    </div>
+
+                    <p class="pancake-classic-description">
+                        Soft pancakes loaded with chocolate chips,
+                        topped with whipped cream and chocolate.
+                    </p>
+
+                    <a
+                        href="order.html"
+                        class="pancake-classic-order"
+                        aria-label="Order Chocolate Chip Pancakes">
+
+                        <span>
+                            Order This Stack
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 04 — BANANA
+            ================================================== -->
+
+            <article class="pancake-classic-item">
+
+                <div class="pancake-classic-image">
+
+                    <img
+                        src="images/pancakes-classic-banana.jpg"
+                        alt="Banana pancakes topped with toasted pecans and maple syrup"
+                        loading="lazy"
+                    >
+
+                    <div
+                        class="pancake-classic-image-overlay"
+                        aria-hidden="true">
+                    </div>
+
+                    <span class="pancake-classic-number">
+                        04
+                    </span>
+
+                    <span class="pancake-classic-category">
+                        HOUSE FAVORITE
+                    </span>
+
+                </div>
+
+
+                <div class="pancake-classic-content">
+
+                    <div class="pancake-classic-heading">
+
+                        <h3 class="pancake-classic-name">
+                            Bananas Pancakes
+                        </h3>
+
+                        <span class="pancake-classic-price">
+                            $10.95
+                        </span>
+
+                    </div>
+
+                    <p class="pancake-classic-description">
+                        Fluffy pancakes layered with fresh banana,
+                        toasted pecans and warm maple syrup.
+                    </p>
+
+                    <a
+                        href="order.html"
+                        class="pancake-classic-order"
+                        aria-label="Order Banana Pancakes">
+
+                        <span>
+                            Order This Stack
+                        </span>
+
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM NOTE
+        ================================================== -->
+
+        <div class="pancake-classics-note">
+
+            <span class="pancake-classics-note-line"></span>
+
+            <p class="pancake-classics-note-text">
+                Every stack is made fresh to order.
+            </p>
+
+            <span class="pancake-classics-note-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="pancake-signature" id="pancakeSignature">
+
+    <div class="pancake-signature-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="pancake-signature-header">
+
+            <span class="pancake-signature-eyebrow">
+                HOUSE SIGNATURES
+            </span>
+
+            <h2 class="pancake-signature-title">
+                Stacks Made to Be
+                <span>Remembered.</span>
+            </h2>
+
+            <div class="pancake-signature-divider"></div>
+
+            <p class="pancake-signature-intro">
+                A little more indulgent, a little more special.
+                These signature stacks bring together our favorite
+                flavors, textures and toppings in every unforgettable bite.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             SIGNATURE PANCAKE GRID
+        ================================================== -->
+
+        <div class="pancake-signature-grid">
+
+
+            <!-- =================================================
+                 ITEM 01 — STRAWBERRY CREAM
+            ================================================== -->
+
+            <article class="pancake-signature-item">
+
+                <div class="pancake-signature-image">
+
+                    <img
+                        src="images/pancakes-signature-strawberry.jpg"
+                        alt="Strawberry cream pancakes topped with fresh strawberries and vanilla cream"
+                        loading="lazy"
+                    >
+
+                    <div
+                        class="pancake-signature-image-overlay"
+                        aria-hidden="true">
+                    </div>
+
+                    <span class="pancake-signature-number">
+                        01
+                    </span>
+
+                    <span class="pancake-signature-badge">
+                        SIGNATURE
+                    </span>
+
+                </div>
+
+
+                <div class="pancake-signature-content">
+
+                    <div class="pancake-signature-heading">
+
+                        <h3 class="pancake-signature-name">
+                            Strawberry Cream Stack
+                        </h3>
+
+                        <span class="pancake-signature-price">
+                            $13.95
+                        </span>
+
+                    </div>
+
+                    <p class="pancake-signature-description">
+                        Fluffy pancakes layered with fresh strawberries,
+                        vanilla cream and powdered sugar, finished with
+                        a drizzle of pure maple.
+                    </p>
+
+                    <a
+                        href="order.html"
+                        class="pancake-signature-order"
+                        aria-label="Order Strawberry Cream Stack"
+                    >
+                        <span>Order This Stack</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 02 — CARAMEL PECAN
+            ================================================== -->
+
+            <article class="pancake-signature-item">
+
+                <div class="pancake-signature-image">
+
+                    <img
+                        src="images/pancakes-signature-caramel.jpg"
+                        alt="Caramel pecan pancakes topped with toasted pecans, banana and whipped cream"
+                        loading="lazy"
+                    >
+
+                    <div
+                        class="pancake-signature-image-overlay"
+                        aria-hidden="true">
+                    </div>
+
+                    <span class="pancake-signature-number">
+                        02
+                    </span>
+
+                    <span class="pancake-signature-badge">
+                        HOUSE FAVORITE
+                    </span>
+
+                </div>
+
+
+                <div class="pancake-signature-content">
+
+                    <div class="pancake-signature-heading">
+
+                        <h3 class="pancake-signature-name">
+                            Caramel Pecan pancake
+                        </h3>
+
+                        <span class="pancake-signature-price">
+                            $14.50
+                        </span>
+
+                    </div>
+
+                    <p class="pancake-signature-description">
+                        Golden pancakes layered with toasted pecans,
+                        fresh banana and whipped cream, finished with
+                        warm caramel and maple syrup.
+                    </p>
+
+                    <a
+                        href="order.html"
+                        class="pancake-signature-order"
+                        aria-label="Order Caramel Pecan Stack"
+                    >
+                        <span>Order This Stack</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 03 — CINNAMON ROLL
+            ================================================== -->
+
+            <article class="pancake-signature-item">
+
+                <div class="pancake-signature-image">
+
+                    <img
+                        src="images/pancakes-signature-cinnamon.jpg"
+                        alt="Cinnamon roll pancakes with cream cheese drizzle and maple glaze"
+                        loading="lazy"
+                    >
+
+                    <div
+                        class="pancake-signature-image-overlay"
+                        aria-hidden="true">
+                    </div>
+
+                    <span class="pancake-signature-number">
+                        03
+                    </span>
+
+                    <span class="pancake-signature-badge">
+                        INDULGENT
+                    </span>
+
+                </div>
+
+
+                <div class="pancake-signature-content">
+
+                    <div class="pancake-signature-heading">
+
+                        <h3 class="pancake-signature-name">
+                            Cinnamon Roll Pancakes
+                        </h3>
+
+                        <span class="pancake-signature-price">
+                            $13.95
+                        </span>
+
+                    </div>
+
+                    <p class="pancake-signature-description">
+                        Soft pancakes swirled with cinnamon sugar,
+                        topped with a silky cream cheese drizzle
+                        and finished with warm maple glaze.
+                    </p>
+
+                    <a
+                        href="order.html"
+                        class="pancake-signature-order"
+                        aria-label="Order Cinnamon Roll Pancakes"
+                    >
+                        <span>Order This Stack</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM STATEMENT
+        ================================================== -->
+
+        <div class="pancake-signature-note">
+
+            <span class="pancake-signature-note-line"></span>
+
+            <p class="pancake-signature-note-text">
+                Our signature stacks are made for slow mornings.
+            </p>
+
+            <span class="pancake-signature-note-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="pancake-addons" id="pancakeAddons">
+
+    <div class="pancake-addons-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="pancake-addons-header">
+
+            <div class="pancake-addons-heading">
+
+                <span class="pancake-addons-eyebrow">
+                    MAKE IT YOURS
+                </span>
+
+                <h2 class="pancake-addons-title">
+                    Add a Little More
+                    <span>to Your Stack.</span>
+                </h2>
+
+                <div class="pancake-addons-divider"></div>
+
+            </div>
+
+            <p class="pancake-addons-intro">
+                Customize your pancakes with fresh toppings,
+                warm sauces and breakfast favorites made to
+                complement every stack.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             ADD-ON LIST
+        ================================================== -->
+
+        <div class="pancake-addons-list">
+
+
+            <!-- =================================================
+                 ITEM 01
+            ================================================== -->
+
+            <article class="pancake-addon-item">
+
+                <div class="pancake-addon-number">
+                    01
+                </div>
+
+                <div class="pancake-addon-image">
+
+                    <img
+                        src="images/pancakes-addon-berries.jpg"
+                        alt="Fresh berries topping"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div class="pancake-addon-content">
+
+                    <span class="pancake-addon-category">
+                        FRESH
+                    </span>
+
+                    <h3 class="pancake-addon-name">
+                        Fresh Berries
+                    </h3>
+
+                    <p class="pancake-addon-description">
+                        A mix of seasonal strawberries,
+                        blueberries and raspberries.
+                    </p>
+
+                </div>
+
+                <div class="pancake-addon-action">
+
+                    <span class="pancake-addon-price">
+                        +$2.00
+                    </span>
+
+                    <a
+                        href="order.html"
+                        class="pancake-addon-button"
+                        aria-label="Add Fresh Berries"
+                    >
+                        <span>ADD</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 02
+            ================================================== -->
+
+            <article class="pancake-addon-item">
+
+                <div class="pancake-addon-number">
+                    02
+                </div>
+
+                <div class="pancake-addon-image">
+
+                    <img
+                        src="images/pancakes-addon-whipped-cream.jpg"
+                        alt="Whipped cream topping"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div class="pancake-addon-content">
+
+                    <span class="pancake-addon-category">
+                        CREAMY
+                    </span>
+
+                    <h3 class="pancake-addon-name">
+                        Whipped Cream
+                    </h3>
+
+                    <p class="pancake-addon-description">
+                        Light and fluffy, the perfect
+                        finishing touch.
+                    </p>
+
+                </div>
+
+                <div class="pancake-addon-action">
+
+                    <span class="pancake-addon-price">
+                        +$1.50
+                    </span>
+
+                    <a
+                        href="order.html"
+                        class="pancake-addon-button"
+                        aria-label="Add Whipped Cream"
+                    >
+                        <span>ADD</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 03
+            ================================================== -->
+
+            <article class="pancake-addon-item">
+
+                <div class="pancake-addon-number">
+                    03
+                </div>
+
+                <div class="pancake-addon-image">
+
+                    <img
+                        src="images/pancakes-addon-maple.jpg"
+                        alt="Pure maple syrup topping"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div class="pancake-addon-content">
+
+                    <span class="pancake-addon-category">
+                        CLASSIC
+                    </span>
+
+                    <h3 class="pancake-addon-name">
+                        Extra Maple Syrup
+                    </h3>
+
+                    <p class="pancake-addon-description">
+                        Pure maple syrup for extra
+                        sweetness.
+                    </p>
+
+                </div>
+
+                <div class="pancake-addon-action">
+
+                    <span class="pancake-addon-price">
+                        +$1.25
+                    </span>
+
+                    <a
+                        href="order.html"
+                        class="pancake-addon-button"
+                        aria-label="Add Extra Maple Syrup"
+                    >
+                        <span>ADD</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 04
+            ================================================== -->
+
+            <article class="pancake-addon-item">
+
+                <div class="pancake-addon-number">
+                    04
+                </div>
+
+                <div class="pancake-addon-image">
+
+                    <img
+                        src="images/pancakes-addon-chocolate.jpg"
+                        alt="Chocolate chips topping"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div class="pancake-addon-content">
+
+                    <span class="pancake-addon-category">
+                        SWEET
+                    </span>
+
+                    <h3 class="pancake-addon-name">
+                        Chocolate Chips
+                    </h3>
+
+                    <p class="pancake-addon-description">
+                        Rich chocolate chips for a
+                        sweet twist.
+                    </p>
+
+                </div>
+
+                <div class="pancake-addon-action">
+
+                    <span class="pancake-addon-price">
+                        +$1.75
+                    </span>
+
+                    <a
+                        href="order.html"
+                        class="pancake-addon-button"
+                        aria-label="Add Chocolate Chips"
+                    >
+                        <span>ADD</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 05
+            ================================================== -->
+
+            <article class="pancake-addon-item">
+
+                <div class="pancake-addon-number">
+                    05
+                </div>
+
+                <div class="pancake-addon-image">
+
+                    <img
+                        src="images/pancakes-addon-pecans.jpg"
+                        alt="Toasted pecans topping"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div class="pancake-addon-content">
+
+                    <span class="pancake-addon-category">
+                        CRUNCHY
+                    </span>
+
+                    <h3 class="pancake-addon-name">
+                        Toasted Pecans
+                    </h3>
+
+                    <p class="pancake-addon-description">
+                        Crunchy, buttery pecans for
+                        added texture.
+                    </p>
+
+                </div>
+
+                <div class="pancake-addon-action">
+
+                    <span class="pancake-addon-price">
+                        +$2.00
+                    </span>
+
+                    <a
+                        href="order.html"
+                        class="pancake-addon-button"
+                        aria-label="Add Toasted Pecans"
+                    >
+                        <span>ADD</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 06
+            ================================================== -->
+
+            <article class="pancake-addon-item">
+
+                <div class="pancake-addon-number">
+                    06
+                </div>
+
+                <div class="pancake-addon-image">
+
+                    <img
+                        src="images/pancakes-addon-caramel.jpg"
+                        alt="Caramel drizzle topping"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div class="pancake-addon-content">
+
+                    <span class="pancake-addon-category">
+                        INDULGENT
+                    </span>
+
+                    <h3 class="pancake-addon-name">
+                        Caramel Drizzle
+                    </h3>
+
+                    <p class="pancake-addon-description">
+                        Smooth caramel for a rich,
+                        indulgent flavor.
+                    </p>
+
+                </div>
+
+                <div class="pancake-addon-action">
+
+                    <span class="pancake-addon-price">
+                        +$1.50
+                    </span>
+
+                    <a
+                        href="order.html"
+                        class="pancake-addon-button"
+                        aria-label="Add Caramel Drizzle"
+                    >
+                        <span>ADD</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 07
+            ================================================== -->
+
+            <article class="pancake-addon-item">
+
+                <div class="pancake-addon-number">
+                    07
+                </div>
+
+                <div class="pancake-addon-image">
+
+                    <img
+                        src="images/pancakes-addon-ice-cream.jpg"
+                        alt="Vanilla ice cream topping"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div class="pancake-addon-content">
+
+                    <span class="pancake-addon-category">
+                        SPECIAL
+                    </span>
+
+                    <h3 class="pancake-addon-name">
+                        Vanilla Ice Cream
+                    </h3>
+
+                    <p class="pancake-addon-description">
+                        A creamy scoop to make it
+                        extra special.
+                    </p>
+
+                </div>
+
+                <div class="pancake-addon-action">
+
+                    <span class="pancake-addon-price">
+                        +$2.50
+                    </span>
+
+                    <a
+                        href="order.html"
+                        class="pancake-addon-button"
+                        aria-label="Add Vanilla Ice Cream"
+                    >
+                        <span>ADD</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 08
+            ================================================== -->
+
+            <article class="pancake-addon-item">
+
+                <div class="pancake-addon-number">
+                    08
+                </div>
+
+                <div class="pancake-addon-image">
+
+                    <img
+                        src="images/pancakes-addon-bacon.jpg"
+                        alt="Crispy bacon topping"
+                        loading="lazy"
+                    >
+
+                </div>
+
+                <div class="pancake-addon-content">
+
+                    <span class="pancake-addon-category">
+                        SAVORY
+                    </span>
+
+                    <h3 class="pancake-addon-name">
+                        Crispy Bacon
+                    </h3>
+
+                    <p class="pancake-addon-description">
+                        Classic crispy bacon for
+                        the perfect balance.
+                    </p>
+
+                </div>
+
+                <div class="pancake-addon-action">
+
+                    <span class="pancake-addon-price">
+                        +$3.00
+                    </span>
+
+                    <a
+                        href="order.html"
+                        class="pancake-addon-button"
+                        aria-label="Add Crispy Bacon"
+                    >
+                        <span>ADD</span>
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true">
+                        </i>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM STATEMENT
+        ================================================== -->
+
+        <div class="pancake-addons-note">
+
+            <span class="pancake-addons-note-line"></span>
+
+            <p class="pancake-addons-note-text">
+                Build your stack. <span>Make it yours.</span>
+            </p>
+
+            <span class="pancake-addons-note-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 07 — FINAL CTA
+========================================================= -->
+
+<section class="pancakes-final-cta" id="pancakesFinalCta">
+
+    <!-- =====================================================
+         BACKGROUND
+    ====================================================== -->
+
+    <div
+        class="pancakes-final-cta-background"
+        style="background-image: url('images/pancakes-cta.jpg');"
+        aria-hidden="true">
+    </div>
+
+    <div
+        class="pancakes-final-cta-overlay"
+        aria-hidden="true">
+    </div>
+
+
+    <!-- =====================================================
+         CONTENT
+    ====================================================== -->
+
+    <div class="pancakes-final-cta-container">
+
+        <div class="pancakes-final-cta-content">
+
+            <span class="pancakes-final-cta-eyebrow">
+                READY FOR BREAKFAST?
+            </span>
+
+            <h2 class="pancakes-final-cta-title">
+                Your Perfect Stack
+                <span>Is Waiting.</span>
+            </h2>
+
+            <div class="pancakes-final-cta-divider"></div>
+
+            <p class="pancakes-final-cta-description">
+                Fresh pancakes, warm coffee and good mornings
+                are just a visit away. Come hungry and make
+                breakfast a moment worth remembering.
+            </p>
+
+
+            <!-- =================================================
+                 ACTIONS
+            ================================================== -->
+
+            <div class="pancakes-final-cta-actions">
+
+                <a
+                    href="order.html"
+                    class="pancakes-final-cta-button pancakes-final-cta-button-primary"
+                >
+                    <span>Order Now</span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true">
+                    </i>
+                </a>
+
+                <a
+                    href="menu.html"
+                    class="pancakes-final-cta-button pancakes-final-cta-button-secondary"
+                >
+                    <span>Explore Our Menu</span>
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true">
+                    </i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         BOTTOM BRAND LINE
+    ====================================================== -->
+
+    <div class="pancakes-final-cta-bottom">
+
+        <span class="pancakes-final-cta-bottom-line"></span>
+
+        <span class="pancakes-final-cta-bottom-text">
+            PANCAKE &amp; BREAKFAST HOUSE
+        </span>
+
+        <span class="pancakes-final-cta-bottom-line"></span>
+
+    </div>
+
+</section>
+        </main>
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="site-footer" id="siteFooter">
+
+
+    <!-- =====================================================
+         FOOTER MAIN
+    ====================================================== -->
+
+    <div class="footer-main">
+
+        <div class="footer-container">
+
+
+            <!-- =================================================
+                 BRAND COLUMN
+            ================================================== -->
+
+            <div class="footer-column footer-brand-column">
+
+                <a
+                    href="index.html"
+                    class="footer-logo"
+                    aria-label="Pancake & Breakfast House Home"
+                >
+
+                    <img
+                        src="images/logo.png"
+                        alt="Pancake & Breakfast House Logo"
+                    >
+
+                </a>
+
+
+                <p class="footer-description">
+
+                    Start your day with delicious pancakes,
+                    waffles, eggs and freshly prepared
+                    breakfast favorites made with love.
+
+                </p>
+
+
+                <!-- =============================================
+                     SOCIAL LINKS
+                ============================================== -->
+
+                <div
+                    class="footer-social"
+                    aria-label="Social Media Links"
+                >
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Facebook"
+                        title="Facebook"
+                    >
+
+                        <i
+                            class="fa-brands fa-facebook-f"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Instagram"
+                        title="Instagram"
+                    >
+
+                        <i
+                            class="fa-brands fa-instagram"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="X"
+                        title="X"
+                    >
+
+                        <i
+                            class="fa-brands fa-x-twitter"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="YouTube"
+                        title="YouTube"
+                    >
+
+                        <i
+                            class="fa-brands fa-youtube"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 QUICK LINKS
+            ================================================== -->
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">
+                    Quick Links
+                </h3>
+
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html">
+                            Our Menu
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="catering.html">
+                            Catering &amp; Group Bookings
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="locations.html">
+                            Locations
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =================================================
+                 MENU LINKS
+            ================================================== -->
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">
+                    Our Menu
+                </h3>
+
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="menu.html#pancakes">
+                            Pancakes
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#waffles">
+                            Waffles
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#egg-dishes">
+                            Egg Dishes
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#breakfast-specials">
+                            Breakfast Specials
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#drinks">
+                            Coffee &amp; Drinks
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#kids">
+                            Kids Breakfast
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =================================================
+                 CONTACT / HOURS
+            ================================================== -->
+
+            <div class="footer-column footer-contact-column">
+
+                <h3 class="footer-title">
+                    Visit Us
+                </h3>
+
+
+                <!-- ADDRESS -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+
+                        <i
+                            class="fa-solid fa-location-dot"
+                            aria-hidden="true"
+                        ></i>
+
+                    </span>
+
+                    <div>
+
+                        <span class="footer-contact-label">
+                            Address
+                        </span>
+
+                        <p>
+                            123 Maple Street,
+                            Breakfast Avenue
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PHONE -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+
+                        <i
+                            class="fa-solid fa-phone"
+                            aria-hidden="true"
+                        ></i>
+
+                    </span>
+
+                    <div>
+
+                        <span class="footer-contact-label">
+                            Phone
+                        </span>
+
+                        <a href="tel:+10000000000">
+                            +1 000 000 0000
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+
+                        <i
+                            class="fa-regular fa-envelope"
+                            aria-hidden="true"
+                        ></i>
+
+                    </span>
+
+                    <div>
+
+                        <span class="footer-contact-label">
+                            Email
+                        </span>
+
+                        <a href="mailto:hello@pancakehouse.com">
+                            hello@pancakehouse.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HOURS -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+
+                    </span>
+
+                    <div>
+
+                        <span class="footer-contact-label">
+                            Opening Hours
+                        </span>
+
+                        <p>
+                            Mon – Sun: 7:00 AM – 3:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FOOTER CTA / NEWSLETTER
+    ====================================================== -->
+
+    <div class="footer-newsletter">
+
+        <div class="footer-container footer-newsletter-container">
+
+
+            <div class="footer-newsletter-content">
+
+                <span class="footer-newsletter-label">
+                    Stay in the loop
+                </span>
+
+                <h3>
+                    Get delicious updates from our kitchen.
+                </h3>
+
+                <p>
+                    Sign up for breakfast specials,
+                    new menu items and exclusive offers.
+                </p>
+
+            </div>
+
+
+            <form
+                class="footer-newsletter-form"
+                action="#"
+                method="post"
+            >
+
+                <label
+                    for="footerEmail"
+                    class="sr-only"
+                >
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="footerEmail"
+                    name="email"
+                    placeholder="Enter your email address"
+                    autocomplete="email"
+                    required
+                >
+
+                <button
+                    type="submit"
+                    class="footer-newsletter-btn"
+                >
+
+                    Subscribe
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FOOTER BOTTOM
+    ====================================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-container footer-bottom-container">
+
+
+            <p class="footer-copyright">
+
+                © 2026
+                <strong>Pancake &amp; Breakfast House</strong>.
+                All Rights Reserved.
+
+            </p>
+
+
+            <div class="footer-bottom-links">
+
+                <a href="privacy.html">
+                    Privacy Policy
+                </a>
+
+                <a href="terms.html">
+                    Terms &amp; Conditions
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+<!-- Scroll to Top Button -->
+<button
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    type="button"
+    aria-label="Scroll to top"
+    title="Back to top"
+>
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+
+    <script
+        src="js/script.js"
+    ></script>
+    <script src="js/site-settings.js"></script>
+
+</body>
+
+</html>

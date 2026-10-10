@@ -1,0 +1,3034 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         BASIC META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Pancake & Breakfast House - Delicious pancakes, waffles, eggs and breakfast favorites."
+    >
+
+    <meta
+        name="keywords"
+        content="pancake, breakfast, waffles, brunch, breakfast restaurant"
+    >
+
+    <meta
+        name="author"
+        content="Pancake & Breakfast House"
+    >
+
+
+    <!-- =====================================================
+         TITLE
+    ====================================================== -->
+
+    <title>
+        Pancake & Breakfast House
+    </title>
+    <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+
+    <!-- =====================================================
+         GOOGLE FONTS
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="index.html"
+                class="site-logo"
+                aria-label="Pancake & Breakfast House Home"
+            >
+
+                <img
+                    src="images/logo.png"
+                    alt="Pancake & Breakfast House Logo"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 MAIN NAVIGATION
+
+                 IMPORTANT:
+                 This SAME navigation is used for:
+                 Desktop
+                 Tablet
+                 iPad Pro
+                 iPad Mini
+                 Mobile
+            ================================================== -->
+
+            <nav
+                class="main-nav"
+                id="mainNav"
+                aria-label="Main Navigation"
+            >
+
+
+                <!-- =============================================
+                     HOME DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle active"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                    >
+
+                        <span>
+                            Home
+                        </span>
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a
+                            href="index.html"
+                            
+                        >
+                            Home 1
+                        </a>
+
+                        <a
+                            href="home2.html"
+                            class="active"
+                        >
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     ABOUT
+                ============================================== -->
+
+                <a
+                    href="about.html"
+                    class="nav-link"
+                >
+                    About
+                </a>
+
+
+                <!-- =============================================
+                     MENU DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                    >
+
+                        <span>
+                            Menu
+                        </span>
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a
+                            href="pancake.html"
+                        >
+                            Pancakes
+                        </a>
+
+                        <a
+                            href="waffles.html"
+                        >
+                            Waffles
+                        </a>
+
+                        <a
+                            href="egg-dishes.html"
+                        >
+                            Egg Dishes
+                        </a>
+
+                        
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     CATERING & GROUP BOOKINGS
+                ============================================== -->
+
+                <a
+                    href="catering.html"
+                    class="nav-link"
+                >
+                    Catering &amp; Group Bookings
+                </a>
+
+
+                <!-- =============================================
+                     LOCATIONS
+                ============================================== -->
+
+                <a
+                    href="locations.html"
+                    class="nav-link"
+                >
+                    Locations
+                </a>
+
+
+                <!-- =============================================
+                     CONTACT
+                ============================================== -->
+
+                <a
+                    href="contact.html"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+
+                <!-- =============================================
+                     HEADER CONTROLS
+
+                     IMPORTANT:
+                     These remain INSIDE the SAME main-nav.
+
+                     Desktop:
+                     RTL + Dark Mode + Login → right side
+
+                     Responsive:
+                     RTL + Dark Mode + Login → inside
+                     hamburger menu
+                ============================================== -->
+
+                <div
+                    class="header-controls"
+                    id="headerControls"
+                >
+
+
+                    <!-- =========================================
+                         RTL BUTTON
+                    ========================================== -->
+
+                    <button
+                        type="button"
+                        class="header-control-btn rtl-toggle"
+                        id="rtlToggle"
+                        aria-label="Switch to RTL mode"
+                        title="RTL Mode"
+                    >
+
+                        <i
+                            class="fa-solid fa-right-left"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <!-- =========================================
+                         DARK MODE BUTTON
+                    ========================================== -->
+
+                    <button
+                        type="button"
+                        class="header-control-btn dark-mode-toggle"
+                        id="darkModeToggle"
+                        aria-label="Enable dark mode"
+                        title="Dark Mode"
+                    >
+
+                        <i
+                            class="fa-solid fa-moon"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <!-- =========================================
+                         LOGIN
+                    ========================================== -->
+
+                    <a
+                        href="login.html"
+                        class="login-btn"
+                    >
+
+                        <i
+                            class="fa-regular fa-user"
+                            aria-hidden="true"
+                        ></i>
+
+                        <span>
+                            Login
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </nav>
+
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+
+                 Controls the SAME #mainNav
+            ================================================== -->
+
+            <button
+                type="button"
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="mainNav"
+            >
+
+                <i
+                    class="fa-solid fa-bars"
+                    aria-hidden="true"
+                ></i>
+
+            </button>
+
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <main id="mainContent">
+<!-- =========================================================
+     HOME 2 — SECTION 01
+     HERO
+     3 SLIDES + NUMBER NAVIGATION
+========================================================= -->
+
+<section class="home2-hero" id="home2Hero">
+
+    <div class="home2-hero-slider" id="home2HeroSlider">
+
+        <!-- =================================================
+             SLIDE 01
+        ================================================== -->
+
+        <article class="home2-hero-slide active">
+
+            <div
+                class="home2-hero-background"
+                style="background-image: url('images/home2-hero-1.jpg');"
+            ></div>
+
+            <div class="home2-hero-overlay"></div>
+
+            <div class="home2-hero-container">
+
+                <div class="home2-hero-content">
+
+                    <span class="home2-hero-eyebrow">
+                        WELCOME TO PANCAKE &amp; BREAKFAST HOUSE
+                    </span>
+
+                    <h1 class="home2-hero-title">
+                        Mornings Worth
+                        <span>Waking Up For</span>
+                    </h1>
+
+                    <p class="home2-hero-description">
+                        Start your morning with fluffy pancakes,
+                        golden waffles, fresh eggs and comforting
+                        breakfast favorites made with care.
+                    </p>
+
+                    <div class="home2-hero-actions">
+
+                        <a
+                            href="menu.html"
+                            class="home2-hero-button home2-hero-button-primary"
+                        >
+                            Explore Our Menu
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                        <a
+                            href="locations.html"
+                            class="home2-hero-button home2-hero-button-secondary"
+                        >
+                            Find a Location
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             SLIDE 02
+        ================================================== -->
+
+        <article class="home2-hero-slide">
+
+            <div
+                class="home2-hero-background"
+                style="background-image: url('images/home2-hero-2.jpg');"
+            ></div>
+
+            <div class="home2-hero-overlay"></div>
+
+            <div class="home2-hero-container">
+
+                <div class="home2-hero-content">
+
+                    <span class="home2-hero-eyebrow">
+                        FRESH • HOMEMADE • DELICIOUS
+                    </span>
+
+                    <h2 class="home2-hero-title">
+                        Start Your Day
+                        <span>With Something Delicious</span>
+                    </h2>
+
+                    <p class="home2-hero-description">
+                        From classic buttermilk pancakes to
+                        crisp Belgian waffles, every breakfast
+                        is prepared fresh for a delicious start.
+                    </p>
+
+                    <div class="home2-hero-actions">
+
+                        <a
+                            href="menu.html"
+                            class="home2-hero-button home2-hero-button-primary"
+                        >
+                            View Breakfast
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                        <a
+                            href="order.html"
+                            class="home2-hero-button home2-hero-button-secondary"
+                        >
+                            Order Now
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             SLIDE 03
+        ================================================== -->
+
+        <article class="home2-hero-slide">
+
+            <div
+                class="home2-hero-background"
+                style="background-image: url('images/home2-hero-3.jpg');"
+            ></div>
+
+            <div class="home2-hero-overlay"></div>
+
+            <div class="home2-hero-container">
+
+                <div class="home2-hero-content">
+
+                    <span class="home2-hero-eyebrow">
+                        MADE FRESH EVERY MORNING
+                    </span>
+
+                    <h2 class="home2-hero-title">
+                        Good Food
+                        <span>Good Mornings</span>
+                    </h2>
+
+                    <p class="home2-hero-description">
+                        Gather around the table for warm flavors,
+                        fresh ingredients and the kind of breakfast
+                        that makes mornings feel special.
+                    </p>
+
+                    <div class="home2-hero-actions">
+
+                        <a
+                            href="about.html"
+                            class="home2-hero-button home2-hero-button-primary"
+                        >
+                            Discover Our Story
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true"
+                            ></i>
+                        </a>
+
+                        <a
+                            href="order.html"
+                            class="home2-hero-button home2-hero-button-secondary"
+                        >
+                            Order Now
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <!-- =====================================================
+         NUMBER SLIDER NAVIGATION
+         NO DOTS / NO PREVIOUS-NEXT BUTTONS
+    ====================================================== -->
+
+    <div
+        class="home2-hero-navigation"
+        id="home2HeroNavigation"
+        aria-label="Hero slide navigation"
+    >
+
+        <button
+            type="button"
+            class="home2-hero-number active"
+            data-slide="0"
+            aria-label="Show slide 1"
+            aria-current="true"
+        >
+            <span class="home2-hero-number-value">01</span>
+            <span class="home2-hero-number-line"></span>
+        </button>
+
+        <button
+            type="button"
+            class="home2-hero-number"
+            data-slide="1"
+            aria-label="Show slide 2"
+            aria-current="false"
+        >
+            <span class="home2-hero-number-value">02</span>
+            <span class="home2-hero-number-line"></span>
+        </button>
+
+        <button
+            type="button"
+            class="home2-hero-number"
+            data-slide="2"
+            aria-label="Show slide 3"
+            aria-current="false"
+        >
+            <span class="home2-hero-number-value">03</span>
+            <span class="home2-hero-number-line"></span>
+        </button>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — SECTION 02
+     THIS IS HOW WE DO BREAKFAST
+========================================================= -->
+
+<section class="home2-story" id="home2Story">
+
+    <div class="home2-story-container">
+
+        <!-- =================================================
+             LEFT — IMAGE COMPOSITION
+        ================================================== -->
+
+        <div class="home2-story-images">
+
+            <div class="home2-story-image-main">
+                <img
+                    src="images/home2-story-main.jpg"
+                    alt="Fresh breakfast served at Pancake & Breakfast House"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="home2-story-image-small">
+                <img
+                    src="images/home2-story-small.jpg"
+                    alt="Fresh pancakes with fruit and maple syrup"
+                    loading="lazy"
+                >
+            </div>
+
+            <div class="home2-story-image-accent"></div>
+
+            <div class="home2-story-years">
+                <span class="home2-story-years-number">10+</span>
+                <span class="home2-story-years-text">
+                    Years of<br>
+                    Breakfast
+                </span>
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             RIGHT — STORY CONTENT
+        ================================================== -->
+
+        <div class="home2-story-content">
+
+            <span class="home2-story-eyebrow">
+                OUR STORY
+            </span>
+
+            <h2 class="home2-story-title">
+                This Is How We Do
+                <span>Breakfast</span>
+            </h2>
+
+            <div class="home2-story-divider"></div>
+
+            <p class="home2-story-highlight">
+                We believe the best mornings begin around
+                a table filled with good food and good company.
+            </p>
+
+            <p class="home2-story-description">
+                Pancake &amp; Breakfast House was created with
+                one simple idea — breakfast should feel special.
+                From our first stack of pancakes to the many
+                mornings we have shared with our guests, we have
+                always focused on fresh ingredients, comforting
+                recipes and food made with genuine care.
+            </p>
+
+            <p class="home2-story-description">
+                Whether you are joining us for a quiet cup of
+                coffee, a family breakfast or a weekend gathering
+                with friends, our goal is to make every visit
+                warm, delicious and worth remembering.
+            </p>
+
+
+            <!-- =================================================
+                 STORY HIGHLIGHTS
+            ================================================== -->
+
+            <div class="home2-story-highlights">
+
+                <div class="home2-story-highlight-item">
+
+                    <span class="home2-story-highlight-number">
+                        01
+                    </span>
+
+                    <div class="home2-story-highlight-content">
+                        <h3>
+                            Fresh Every Morning
+                        </h3>
+
+                        <p>
+                            Carefully prepared ingredients
+                            for a better breakfast.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="home2-story-highlight-item">
+
+                    <span class="home2-story-highlight-number">
+                        02
+                    </span>
+
+                    <div class="home2-story-highlight-content">
+                        <h3>
+                            Made With Care
+                        </h3>
+
+                        <p>
+                            Recipes prepared with passion,
+                            patience and attention to detail.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 STORY SIGNATURE
+            ================================================== -->
+
+            <div class="home2-story-signature">
+
+                <span class="home2-story-signature-text">
+                    Made for mornings,
+                    made for you.
+                </span>
+
+            </div>
+
+
+            <!-- =================================================
+                 STORY ACTION
+            ================================================== -->
+
+            <div class="home2-story-action">
+
+                <a
+                    href="about.html"
+                    class="home2-story-button"
+                >
+                    Discover Our Story
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — SECTION 03
+     BREAKFAST PHILOSOPHY
+========================================================= -->
+
+<section class="home2-philosophy" id="home2Philosophy">
+
+    <div class="home2-philosophy-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="home2-philosophy-heading">
+
+            <span class="home2-philosophy-eyebrow">
+                OUR PHILOSOPHY
+            </span>
+
+            <h2 class="home2-philosophy-title">
+                Simple Ingredients.
+                <span>Big Flavor.</span>
+            </h2>
+
+            <div class="home2-philosophy-divider"></div>
+
+            <p class="home2-philosophy-intro">
+                We keep breakfast simple, fresh and full of flavor.
+                Every dish begins with quality ingredients and
+                thoughtful preparation.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             PHILOSOPHY ITEMS
+        ================================================== -->
+
+        <div class="home2-philosophy-grid">
+
+            <!-- =================================================
+                 ITEM 01
+            ================================================== -->
+
+            <article class="home2-philosophy-item">
+
+                <div class="home2-philosophy-number">
+                    01
+                </div>
+
+                <div class="home2-philosophy-icon">
+                    <i
+                        class="fa-solid fa-seedling"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="home2-philosophy-content">
+
+                    <h3 class="home2-philosophy-item-title">
+                        Quality Ingredients
+                    </h3>
+
+                    <p class="home2-philosophy-item-description">
+                        We choose fresh, carefully selected ingredients
+                        to bring natural flavor and quality to every
+                        breakfast we serve.
+                    </p>
+
+                </div>
+
+                <div class="home2-philosophy-line"></div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 02
+            ================================================== -->
+
+            <article class="home2-philosophy-item">
+
+                <div class="home2-philosophy-number">
+                    02
+                </div>
+
+                <div class="home2-philosophy-icon">
+                    <i
+                        class="fa-solid fa-kitchen-set"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="home2-philosophy-content">
+
+                    <h3 class="home2-philosophy-item-title">
+                        Made From Scratch
+                    </h3>
+
+                    <p class="home2-philosophy-item-description">
+                        From our pancake batter to our favorite
+                        breakfast creations, we prepare our food
+                        with care every morning.
+                    </p>
+
+                </div>
+
+                <div class="home2-philosophy-line"></div>
+
+            </article>
+
+
+            <!-- =================================================
+                 ITEM 03
+            ================================================== -->
+
+            <article class="home2-philosophy-item">
+
+                <div class="home2-philosophy-number">
+                    03
+                </div>
+
+                <div class="home2-philosophy-icon">
+                    <i
+                        class="fa-solid fa-sun"
+                        aria-hidden="true"
+                    ></i>
+                </div>
+
+                <div class="home2-philosophy-content">
+
+                    <h3 class="home2-philosophy-item-title">
+                        Always Fresh
+                    </h3>
+
+                    <p class="home2-philosophy-item-description">
+                        Breakfast is best when it is fresh, warm
+                        and served at the right moment, which is
+                        why we make every order to serve.
+                    </p>
+
+                </div>
+
+                <div class="home2-philosophy-line"></div>
+
+            </article>
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM STATEMENT
+        ================================================== -->
+
+        <div class="home2-philosophy-bottom">
+
+            <span class="home2-philosophy-bottom-line"></span>
+
+            <p class="home2-philosophy-bottom-text">
+                Good food does not need to be complicated.
+                It just needs to be made well.
+            </p>
+
+            <span class="home2-philosophy-bottom-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — SECTION 04
+     WORTH GETTING OUT OF BED FOR
+========================================================== -->
+
+<section class="home2-signature" id="home2SignatureDishes">
+
+    <div class="home2-signature-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="home2-signature-header">
+
+            <span class="home2-signature-eyebrow">
+                SIGNATURE DISHES
+            </span>
+
+            <h2 class="home2-signature-title">
+                Worth Getting
+                <span>Out of Bed For</span>
+            </h2>
+
+            <div class="home2-signature-divider"></div>
+
+            <p class="home2-signature-intro">
+                Our most-loved breakfast creations, made for slow
+                mornings and hungry hearts.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             SIGNATURE DISHES GRID
+        ================================================== -->
+
+        <div class="home2-signature-grid">
+
+
+            <!-- =================================================
+                 FEATURED DISH
+            ================================================== -->
+
+            <article class="home2-signature-card home2-signature-card-featured">
+
+                <div class="home2-signature-image">
+
+                    <img
+                        src="images/home2-signature-pancakes.jpg"
+                        alt="Signature Berry Pancakes"
+                        loading="lazy"
+                    >
+
+                    <div class="home2-signature-overlay">
+
+                        <div class="home2-signature-details">
+
+                            <span class="home2-signature-category">
+                                SIGNATURE FAVORITE
+                            </span>
+
+                            <h3 class="home2-signature-name">
+                                Signature Berry Pancakes
+                            </h3>
+
+                            <p class="home2-signature-description">
+                                Fluffy buttermilk pancakes layered with
+                                fresh berries, whipped cream and warm
+                                maple syrup.
+                            </p>
+
+                            <div class="home2-signature-bottom">
+
+                                <span class="home2-signature-price">
+                                    $12.90
+                                </span>
+
+                                <a
+                                    href="order.html"
+                                    class="home2-signature-order"
+                                >
+                                    <span>Order Now</span>
+
+                                    <i
+                                        class="fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SECOND DISH
+            ================================================== -->
+
+            <article class="home2-signature-card">
+
+                <div class="home2-signature-image">
+
+                    <img
+                        src="images/home2-signature-waffle.jpg"
+                        alt="Strawberry Belgian Waffle"
+                        loading="lazy"
+                    >
+
+                    <div class="home2-signature-overlay">
+
+                        <div class="home2-signature-details">
+
+                            <span class="home2-signature-category">
+                                HOUSE FAVORITE
+                            </span>
+
+                            <h3 class="home2-signature-name">
+                                Strawberry Belgian Waffle
+                            </h3>
+
+                            <p class="home2-signature-description">
+                                Crisp golden Belgian waffle served with
+                                strawberries, cream and maple drizzle.
+                            </p>
+
+                            <div class="home2-signature-bottom">
+
+                                <span class="home2-signature-price">
+                                    $11.50
+                                </span>
+
+                                <a
+                                    href="order.html"
+                                    class="home2-signature-order"
+                                >
+                                    <span>Order Now</span>
+
+                                    <i
+                                        class="fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 THIRD DISH
+            ================================================== -->
+
+            <article class="home2-signature-card">
+
+                <div class="home2-signature-image">
+
+                    <img
+                        src="images/home2-signature-french-toast.jpg"
+                        alt="Berry French Toast"
+                        loading="lazy"
+                    >
+
+                    <div class="home2-signature-overlay">
+
+                        <div class="home2-signature-details">
+
+                            <span class="home2-signature-category">
+                                MORNING CLASSIC
+                            </span>
+
+                            <h3 class="home2-signature-name">
+                                Berry French Toast
+                            </h3>
+
+                            <p class="home2-signature-description">
+                                Thick-cut brioche French toast topped with
+                                seasonal berries, powdered sugar and syrup.
+                            </p>
+
+                            <div class="home2-signature-bottom">
+
+                                <span class="home2-signature-price">
+                                    $10.90
+                                </span>
+
+                                <a
+                                    href="order.html"
+                                    class="home2-signature-order"
+                                >
+                                    <span>Order Now</span>
+
+                                    <i
+                                        class="fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM LINK
+        ================================================== -->
+
+        <div class="home2-signature-footer">
+
+            <p class="home2-signature-footer-text">
+                There is always something delicious waiting for you.
+            </p>
+
+            <a
+                href="menu.html"
+                class="home2-signature-menu-link"
+            >
+                Explore Full Menu
+
+                <i
+                    class="fa-solid fa-arrow-right"
+                    aria-hidden="true"
+                ></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — SECTION 05
+     MADE FRESH, EVERY MORNING
+========================================================== -->
+
+<section class="home2-process" id="home2Process">
+
+    <div class="home2-process-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="home2-process-header">
+
+            <span class="home2-process-eyebrow">
+                OUR PROCESS
+            </span>
+
+            <h2 class="home2-process-title">
+                Made Fresh,
+                <span>Every Morning</span>
+            </h2>
+
+            <div class="home2-process-divider"></div>
+
+            <p class="home2-process-intro">
+                From carefully chosen ingredients to the first warm bite,
+                every breakfast is prepared with care.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             PROCESS TIMELINE
+        ================================================== -->
+
+        <div class="home2-process-timeline">
+
+
+            <!-- =================================================
+                 STEP 01 — INGREDIENTS
+            ================================================== -->
+
+            <article class="home2-process-item home2-process-item-one">
+
+                <div class="home2-process-visual">
+
+                    <div class="home2-process-image-frame">
+
+                        <img
+                            src="images/home2-process-ingredients.jpg"
+                            alt="Fresh ingredients prepared for breakfast"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <span class="home2-process-number">
+                        01
+                    </span>
+
+                </div>
+
+                <div class="home2-process-content">
+
+                    <span class="home2-process-step">
+                        START FRESH
+                    </span>
+
+                    <h3 class="home2-process-item-title">
+                        Choose Fresh
+                    </h3>
+
+                    <p class="home2-process-item-description">
+                        We begin with fresh eggs, quality flour, seasonal
+                        fruits and carefully selected items.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 STEP 02 — PREPARATION
+            ================================================== -->
+
+            <article class="home2-process-item home2-process-item-two">
+
+                <div class="home2-process-visual">
+
+                    <div class="home2-process-image-frame">
+
+                        <img
+                            src="images/home2-process-preparation.jpg"
+                            alt="Breakfast ingredients being prepared in the kitchen"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <span class="home2-process-number">
+                        02
+                    </span>
+
+                </div>
+
+                <div class="home2-process-content">
+
+                    <span class="home2-process-step">
+                        MADE WITH CARE
+                    </span>
+
+                    <h3 class="home2-process-item-title">
+                        Prepare Care
+                    </h3>
+
+                    <p class="home2-process-item-description">
+                        Every batter, filling and topping is prepared
+                        thought to bring out the best flavor.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 STEP 03 — COOKING
+            ================================================== -->
+
+            <article class="home2-process-item home2-process-item-three">
+
+                <div class="home2-process-visual">
+
+                    <div class="home2-process-image-frame">
+
+                        <img
+                            src="images/home2-process-cooking.jpg"
+                            alt="Fresh breakfast cooking in the kitchen"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <span class="home2-process-number">
+                        03
+                    </span>
+
+                </div>
+
+                <div class="home2-process-content">
+
+                    <span class="home2-process-step">
+                        COOKED TO PERFECTION
+                    </span>
+
+                    <h3 class="home2-process-item-title">
+                        Cook neatly
+                    </h3>
+
+                    <p class="home2-process-item-description">
+                        Pancakes are golden, waffles are crisp and eggs
+                        are cooked just the way you like them.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 STEP 04 — SERVING
+            ================================================== -->
+
+            <article class="home2-process-item home2-process-item-four">
+
+                <div class="home2-process-visual">
+
+                    <div class="home2-process-image-frame">
+
+                        <img
+                            src="images/home2-process-serving.jpg"
+                            alt="Fresh breakfast served warm at the table"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <span class="home2-process-number">
+                        04
+                    </span>
+
+                </div>
+
+                <div class="home2-process-content">
+
+                    <span class="home2-process-step">
+                        SERVED WARM
+                    </span>
+
+                    <h3 class="home2-process-item-title">
+                        Serve With Love
+                    </h3>
+
+                    <p class="home2-process-item-description">
+                        Your breakfast leaves our kitchen warm, fresh
+                        ready to make your morning a better.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM MESSAGE
+        ================================================== -->
+
+        <div class="home2-process-bottom">
+
+            <span class="home2-process-bottom-line"></span>
+
+            <p class="home2-process-bottom-text">
+                Good mornings start with food made the right way.
+            </p>
+
+            <span class="home2-process-bottom-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — SECTION 06
+     MORE THAN BREAKFAST. IT'S A MOMENT.
+========================================================== -->
+
+<section class="home2-moments" id="home2Moments">
+
+    <div class="home2-moments-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="home2-moments-header">
+
+            <span class="home2-moments-eyebrow">
+                BREAKFAST MOMENTS
+            </span>
+
+            <h2 class="home2-moments-title">
+                More Than Breakfast.
+                <span>It's a Moment.</span>
+            </h2>
+
+            <div class="home2-moments-divider"></div>
+
+            <p class="home2-moments-intro">
+                Slow mornings, shared tables, warm coffee and little
+                moments worth remembering.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             EDITORIAL GALLERY
+        ================================================== -->
+
+        <div class="home2-moments-gallery">
+
+
+            <!-- =================================================
+                 IMAGE 01 — LARGE FEATURE
+            ================================================== -->
+
+            <article class="home2-moment-card home2-moment-card-large">
+
+                <div class="home2-moment-image">
+
+                    <img
+                        src="images/home2-moment-1.jpg"
+                        alt="Breakfast table filled with pancakes and coffee"
+                        loading="lazy"
+                    >
+
+                    <div class="home2-moment-overlay">
+
+                        <div class="home2-moment-content">
+
+                            <span class="home2-moment-category">
+                                SLOW MORNINGS
+                            </span>
+
+                            <h3 class="home2-moment-title-card">
+                                Start The Day Slowly
+                            </h3>
+
+                            <p class="home2-moment-description">
+                                Take your time, enjoy your breakfast
+                                and make room for a good morning.
+                            </p>
+
+                            <span class="home2-moment-arrow">
+                                <i
+                                    class="fa-solid fa-arrow-right"
+                                    aria-hidden="true"
+                                ></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 IMAGE 02
+            ================================================== -->
+
+            <article class="home2-moment-card home2-moment-card-top">
+
+                <div class="home2-moment-image">
+
+                    <img
+                        src="images/home2-moment-2.jpg"
+                        alt="Fresh pancakes served with maple syrup"
+                        loading="lazy"
+                    >
+
+                    <div class="home2-moment-overlay">
+
+                        <div class="home2-moment-content">
+
+                            <span class="home2-moment-category">
+                                SOMETHING SWEET
+                            </span>
+
+                            <h3 class="home2-moment-title-card">
+                                A Little Extra Sweetness
+                            </h3>
+
+                            <span class="home2-moment-arrow">
+                                <i
+                                    class="fa-solid fa-arrow-right"
+                                    aria-hidden="true"
+                                ></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 IMAGE 03
+            ================================================== -->
+
+            <article class="home2-moment-card home2-moment-card-middle">
+
+                <div class="home2-moment-image">
+
+                    <img
+                        src="images/home2-moment-3.jpg"
+                        alt="Friends enjoying breakfast together"
+                        loading="lazy"
+                    >
+
+                    <div class="home2-moment-overlay">
+
+                        <div class="home2-moment-content">
+
+                            <span class="home2-moment-category">
+                                GATHER TOGETHER
+                            </span>
+
+                            <h3 class="home2-moment-title-card">
+                                Better Around The Table
+                            </h3>
+
+                            <span class="home2-moment-arrow">
+                                <i
+                                    class="fa-solid fa-arrow-right"
+                                    aria-hidden="true"
+                                ></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 IMAGE 04 — WIDE
+            ================================================== -->
+
+            <article class="home2-moment-card home2-moment-card-wide">
+
+                <div class="home2-moment-image">
+
+                    <img
+                        src="images/home2-moment-4.jpg"
+                        alt="Fresh coffee and breakfast on a restaurant table"
+                        loading="lazy"
+                    >
+
+                    <div class="home2-moment-overlay">
+
+                        <div class="home2-moment-content">
+
+                            <span class="home2-moment-category">
+                                COFFEE &amp; CONVERSATION
+                            </span>
+
+                            <h3 class="home2-moment-title-card">
+                                Stay For One More Cup
+                            </h3>
+
+                            <p class="home2-moment-description">
+                                Good coffee, good company and nowhere
+                                else you need to be.
+                            </p>
+
+                            <span class="home2-moment-arrow">
+                                <i
+                                    class="fa-solid fa-arrow-right"
+                                    aria-hidden="true"
+                                ></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 IMAGE 05
+            ================================================== -->
+
+            <article class="home2-moment-card home2-moment-card-small">
+
+                <div class="home2-moment-image">
+
+                    <img
+                        src="images/home2-moment-5.jpg"
+                        alt="Warm breakfast being served at the table"
+                        loading="lazy"
+                    >
+
+                    <div class="home2-moment-overlay">
+
+                        <div class="home2-moment-content">
+
+                            <span class="home2-moment-category">
+                                SERVED WARM
+                            </span>
+
+                            <h3 class="home2-moment-title-card">
+                                Made For Your Morning
+                            </h3>
+
+                            <span class="home2-moment-arrow">
+                                <i
+                                    class="fa-solid fa-arrow-right"
+                                    aria-hidden="true"
+                                ></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <!-- =================================================
+             BOTTOM MESSAGE
+        ================================================== -->
+
+        <div class="home2-moments-footer">
+
+            <span class="home2-moments-footer-line"></span>
+
+            <p class="home2-moments-footer-text">
+                Come for breakfast. Stay for the moment.
+            </p>
+
+            <span class="home2-moments-footer-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     HOME 2 — SECTION 07
+     MEET THE CHEF
+========================================================== -->
+
+<section class="home2-chef" id="home2Chef">
+
+    <div class="home2-chef-container">
+
+        <!-- =================================================
+             CHEF IMAGE
+        ================================================== -->
+
+        <div class="home2-chef-visual">
+
+            <div class="home2-chef-image-frame">
+
+                <img
+                    src="images/home2-chef.jpg"
+                    alt="Chef Daniel Morgan preparing breakfast"
+                    loading="lazy"
+                >
+
+            </div>
+
+            <div class="home2-chef-image-accent"></div>
+
+            <div class="home2-chef-experience">
+
+                <span class="home2-chef-experience-number">
+                    15+
+                </span>
+
+                <span class="home2-chef-experience-text">
+                    Years of<br>
+                    Experience
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             CHEF CONTENT
+        ================================================== -->
+
+        <div class="home2-chef-content">
+
+            <span class="home2-chef-eyebrow">
+                MEET THE CHEF
+            </span>
+
+            <h2 class="home2-chef-title">
+                Behind Every
+                <span>Good Morning</span>
+            </h2>
+
+            <div class="home2-chef-divider"></div>
+
+            <p class="home2-chef-intro">
+                The person behind the recipes, the details and the
+                breakfast you come back for.
+            </p>
+
+
+            <!-- =================================================
+                 CHEF NAME
+            ================================================== -->
+
+            <div class="home2-chef-name-block">
+
+                <h3 class="home2-chef-name">
+                    Chef Daniel Morgan
+                </h3>
+
+                <span class="home2-chef-role">
+                    Head Breakfast Chef
+                </span>
+
+            </div>
+
+
+            <!-- =================================================
+                 CHEF STORY
+            ================================================== -->
+
+            <div class="home2-chef-story">
+
+                <p>
+                    With a passion for comforting flavors and beautifully
+                    simple food, Chef Daniel brings a thoughtful approach
+                    to every breakfast plate.
+                </p>
+
+                <p>
+                    His philosophy is simple — use quality ingredients,
+                    respect the classics and give every dish a little
+                    something special.
+                </p>
+
+            </div>
+
+
+            <!-- =================================================
+                 CHEF QUOTE
+            ================================================== -->
+
+            <blockquote class="home2-chef-quote">
+
+                <span class="home2-chef-quote-mark">
+                    “
+                </span>
+
+                <p>
+                    The best breakfast is made with simple ingredients,
+                    patience and a little love.
+                </p>
+
+            </blockquote>
+
+
+            <!-- =================================================
+                 CHEF SIGNATURE
+            ================================================== -->
+
+            <div class="home2-chef-signature">
+
+                <span class="home2-chef-signature-name">
+                    Chef Daniel
+                </span>
+
+                <span class="home2-chef-signature-label">
+                    Our Kitchen
+                </span>
+
+            </div>
+
+
+            <!-- =================================================
+                 CHEF ACTION
+            ================================================== -->
+
+            <div class="home2-chef-action">
+
+                <a
+                    href="about.html"
+                    class="home2-chef-button"
+                >
+                    Discover Our Story
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ============================================================
+     HOME 2 — SECTION 08
+     GUEST STORIES
+============================================================= -->
+
+<section class="home2-guest" id="home2GuestStories">
+
+    <div class="home2-guest-container">
+
+        <!-- =================================================
+             SECTION HEADER
+        ================================================== -->
+
+        <div class="home2-guest-header">
+
+            <span class="home2-guest-eyebrow">
+                GUEST STORIES
+            </span>
+
+            <h2 class="home2-guest-title">
+                Good Food. <span>Good Company.</span>
+            </h2>
+
+            <div class="home2-guest-divider"></div>
+
+            <p class="home2-guest-intro">
+                The best part of breakfast is sharing it.
+                Here's what our guests have to say.
+            </p>
+
+        </div>
+
+
+        <!-- =================================================
+             TESTIMONIAL SLIDER
+        ================================================== -->
+
+        <div class="home2-guest-slider" id="home2GuestSlider">
+
+
+            <!-- =================================================
+                 SLIDE 01
+            ================================================== -->
+
+            <article
+                class="home2-guest-slide active"
+                aria-hidden="false"
+            >
+
+                <!-- LEFT EDITORIAL PANEL -->
+
+                <div class="home2-guest-intro-panel">
+
+                    <span class="home2-guest-panel-label">
+                        FROM OUR TABLE
+                    </span>
+
+                    <h3 class="home2-guest-panel-title">
+                        Breakfast is
+                        <span>better shared.</span>
+                    </h3>
+
+                    <p class="home2-guest-panel-description">
+                        From weekend breakfasts with family to quiet
+                        mornings over coffee, our guests make every
+                        table special.
+                    </p>
+
+                    <a
+                        href="menu.html"
+                        class="home2-guest-panel-button"
+                    >
+                        Explore Our Menu
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+
+                <!-- CENTER IMAGE -->
+
+                <div class="home2-guest-image-panel">
+
+                    <div class="home2-guest-image-frame">
+
+                        <img
+                            src="images/home2-guest-1.jpg"
+                            alt="Guests enjoying breakfast at Pancake & Breakfast House"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <span class="home2-guest-image-label">
+                        MORNING MOMENTS
+                    </span>
+
+                </div>
+
+
+                <!-- RIGHT TESTIMONIAL -->
+
+                <div class="home2-guest-testimonial-panel">
+
+                    <span class="home2-guest-quote-mark">
+                        “
+                    </span>
+
+                    <blockquote class="home2-guest-quote">
+                        The pancakes were absolutely perfect,
+                        and the atmosphere made our whole morning
+                        feel special.
+                    </blockquote>
+
+                    <div class="home2-guest-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="home2-guest-person">
+
+                        <div class="home2-guest-person-image">
+                            <img
+                                src="images/home2-guest-1.jpg"
+                                alt="Sarah Mitchell"
+                                loading="lazy"
+                            >
+                        </div>
+
+                        <div class="home2-guest-person-info">
+
+                            <h3 class="home2-guest-person-name">
+                                Sarah Mitchell
+                            </h3>
+
+                            <span class="home2-guest-person-role">
+                                Weekend Breakfast Guest
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SLIDE 02
+            ================================================== -->
+
+            <article
+                class="home2-guest-slide"
+                aria-hidden="true"
+            >
+
+                <!-- LEFT EDITORIAL PANEL -->
+
+                <div class="home2-guest-intro-panel">
+
+                    <span class="home2-guest-panel-label">
+                        A MORNING TO REMEMBER
+                    </span>
+
+                    <h3 class="home2-guest-panel-title">
+                        Come hungry.
+                        <span>Leave happy.</span>
+                    </h3>
+
+                    <p class="home2-guest-panel-description">
+                        Warm plates, fresh coffee and a welcoming
+                        table are all part of the breakfast experience
+                        we love sharing with our guests.
+                    </p>
+
+                    <a
+                        href="locations.html"
+                        class="home2-guest-panel-button"
+                    >
+                        Find a Location
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+
+                <!-- CENTER IMAGE -->
+
+                <div class="home2-guest-image-panel">
+
+                    <div class="home2-guest-image-frame">
+
+                        <img
+                            src="images/home2-guest-2.jpg"
+                            alt="Friends enjoying a warm breakfast together"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <span class="home2-guest-image-label">
+                        SHARED MOMENTS
+                    </span>
+
+                </div>
+
+
+                <!-- RIGHT TESTIMONIAL -->
+
+                <div class="home2-guest-testimonial-panel">
+
+                    <span class="home2-guest-quote-mark">
+                        “
+                    </span>
+
+                    <blockquote class="home2-guest-quote">
+                        Everything felt so fresh and welcoming.
+                        It was the perfect place to slow down
+                        and enjoy breakfast together.
+                    </blockquote>
+
+                    <div class="home2-guest-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="home2-guest-person">
+
+                        <div class="home2-guest-person-image">
+                            <img
+                                src="images/home2-guest-2.jpg"
+                                alt="Michael Carter"
+                                loading="lazy"
+                            >
+                        </div>
+
+                        <div class="home2-guest-person-info">
+
+                            <h3 class="home2-guest-person-name">
+                                Michael Carter
+                            </h3>
+
+                            <span class="home2-guest-person-role">
+                                Family Breakfast Guest
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 SLIDE 03
+            ================================================== -->
+
+            <article
+                class="home2-guest-slide"
+                aria-hidden="true"
+            >
+
+                <!-- LEFT EDITORIAL PANEL -->
+
+                <div class="home2-guest-intro-panel">
+
+                    <span class="home2-guest-panel-label">
+                        MADE FOR MORNINGS
+                    </span>
+
+                    <h3 class="home2-guest-panel-title">
+                        Simple food.
+                        <span>Beautiful moments.</span>
+                    </h3>
+
+                    <p class="home2-guest-panel-description">
+                        We believe a great breakfast is about more
+                        than what is on the plate. It is about the
+                        people around the table.
+                    </p>
+
+                    <a
+                        href="about.html"
+                        class="home2-guest-panel-button"
+                    >
+                        Our Story
+                        <i
+                            class="fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+
+                </div>
+
+
+                <!-- CENTER IMAGE -->
+
+                <div class="home2-guest-image-panel">
+
+                    <div class="home2-guest-image-frame">
+
+                        <img
+                            src="images/home2-guest-3.jpg"
+                            alt="Family sharing breakfast around a table"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+                    <span class="home2-guest-image-label">
+                        AROUND THE TABLE
+                    </span>
+
+                </div>
+
+
+                <!-- RIGHT TESTIMONIAL -->
+
+                <div class="home2-guest-testimonial-panel">
+
+                    <span class="home2-guest-quote-mark">
+                        “
+                    </span>
+
+                    <blockquote class="home2-guest-quote">
+                        The food was delicious, the coffee was
+                        wonderful and the whole experience felt
+                        like a perfect Sunday morning.
+                    </blockquote>
+
+                    <div class="home2-guest-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="home2-guest-person">
+
+                        <div class="home2-guest-person-image">
+
+                            <img
+                                src="images/home2-guest-3.jpg"
+                                alt="Emily Johnson"
+                                loading="lazy"
+                            >
+
+                        </div>
+
+                        <div class="home2-guest-person-info">
+
+                            <h3 class="home2-guest-person-name">
+                                Emily Johnson
+                            </h3>
+
+                            <span class="home2-guest-person-role">
+                                Sunday Morning Guest
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- =================================================
+             NUMBER NAVIGATION
+             NO PREVIOUS / NEXT BUTTONS
+        ================================================== -->
+
+        <div
+            class="home2-guest-navigation"
+            id="home2GuestNavigation"
+            aria-label="Guest story navigation"
+        >
+
+            <button
+                type="button"
+                class="home2-guest-number active"
+                data-slide="0"
+                aria-label="Show guest story 1"
+                aria-current="true"
+            >
+                <span class="home2-guest-number-value">
+                    01
+                </span>
+
+                <span class="home2-guest-number-line"></span>
+            </button>
+
+
+            <button
+                type="button"
+                class="home2-guest-number"
+                data-slide="1"
+                aria-label="Show guest story 2"
+                aria-current="false"
+            >
+                <span class="home2-guest-number-value">
+                    02
+                </span>
+
+                <span class="home2-guest-number-line"></span>
+            </button>
+
+
+            <button
+                type="button"
+                class="home2-guest-number"
+                data-slide="2"
+                aria-label="Show guest story 3"
+                aria-current="false"
+            >
+                <span class="home2-guest-number-value">
+                    03
+                </span>
+
+                <span class="home2-guest-number-line"></span>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ============================================================
+     HOME 2 — SECTION 09
+     COME HUNGRY. LEAVE HAPPY.
+============================================================= -->
+
+<section class="home2-visit" id="home2Visit">
+
+    <div class="home2-visit-container">
+
+        <!-- =================================================
+             LEFT — IMAGE
+        ================================================== -->
+
+        <div class="home2-visit-visual">
+
+            <div class="home2-visit-image-frame">
+
+                <img
+                    src="images/home2-visit.jpg"
+                    alt="Warm and welcoming Pancake & Breakfast House restaurant interior"
+                    loading="lazy"
+                >
+
+            </div>
+
+            <div class="home2-visit-image-label">
+                <span class="home2-visit-image-label-line"></span>
+                <span>GOOD MORNINGS START HERE</span>
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             RIGHT — CONTENT
+        ================================================== -->
+
+        <div class="home2-visit-content">
+
+            <span class="home2-visit-eyebrow">
+                VISIT US
+            </span>
+
+            <h2 class="home2-visit-title">
+                Come Hungry.
+                <span>Leave Happy.</span>
+            </h2>
+
+            <div class="home2-visit-divider"></div>
+
+            <p class="home2-visit-intro">
+                Fresh breakfast, warm coffee and good company
+                are waiting for you. Come settle in, take your
+                time and make your morning a little more special.
+            </p>
+
+
+            <!-- =================================================
+                 LOCATION DETAILS
+            ================================================== -->
+
+            <div class="home2-visit-details">
+
+                <!-- LOCATION -->
+
+                <div class="home2-visit-detail">
+
+                    <div class="home2-visit-detail-icon">
+                        <i
+                            class="fa-solid fa-location-dot"
+                            aria-hidden="true"
+                        ></i>
+                    </div>
+
+                    <div class="home2-visit-detail-content">
+
+                        <span class="home2-visit-detail-label">
+                            OUR LOCATION
+                        </span>
+
+                        <h3 class="home2-visit-detail-title">
+                            Location
+                        </h3>
+
+                        <p class="home2-visit-detail-text">
+                            125 Maple Street, Downtown
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HOURS -->
+
+                <div class="home2-visit-detail">
+
+                    <div class="home2-visit-detail-icon">
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+                    </div>
+
+                    <div class="home2-visit-detail-content">
+
+                        <span class="home2-visit-detail-label">
+                            OPENING HOURS
+                        </span>
+
+                        <h3 class="home2-visit-detail-title">
+                            Monday – Sunday
+                        </h3>
+
+                        <p class="home2-visit-detail-text">
+                            7:00 AM – 3:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 ACTIONS
+            ================================================== -->
+
+            <div class="home2-visit-actions">
+
+                <a
+                    href="locations.html"
+                    class="home2-visit-button home2-visit-button-primary"
+                >
+                    Get Directions
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+                </a>
+
+                
+
+            </div>
+
+
+            <!-- =================================================
+                 BOTTOM MESSAGE
+            ================================================== -->
+
+            <div class="home2-visit-signature">
+
+                <span class="home2-visit-signature-line"></span>
+
+                <p class="home2-visit-signature-text">
+                    Come for breakfast. Stay for the moment.
+                </p>
+
+                <span class="home2-visit-signature-line"></span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+        </main>
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="site-footer" id="siteFooter">
+
+
+    <!-- =====================================================
+         FOOTER MAIN
+    ====================================================== -->
+
+    <div class="footer-main">
+
+        <div class="footer-container">
+
+
+            <!-- =================================================
+                 BRAND COLUMN
+            ================================================== -->
+
+            <div class="footer-column footer-brand-column">
+
+                <a
+                    href="index.html"
+                    class="footer-logo"
+                    aria-label="Pancake & Breakfast House Home"
+                >
+
+                    <img
+                        src="images/logo.png"
+                        alt="Pancake & Breakfast House Logo"
+                    >
+
+                </a>
+
+
+                <p class="footer-description">
+
+                    Start your day with delicious pancakes,
+                    waffles, eggs and freshly prepared
+                    breakfast favorites made with love.
+
+                </p>
+
+
+                <!-- =============================================
+                     SOCIAL LINKS
+                ============================================== -->
+
+                <div
+                    class="footer-social"
+                    aria-label="Social Media Links"
+                >
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Facebook"
+                        title="Facebook"
+                    >
+
+                        <i
+                            class="fa-brands fa-facebook-f"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Instagram"
+                        title="Instagram"
+                    >
+
+                        <i
+                            class="fa-brands fa-instagram"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="X"
+                        title="X"
+                    >
+
+                        <i
+                            class="fa-brands fa-x-twitter"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="YouTube"
+                        title="YouTube"
+                    >
+
+                        <i
+                            class="fa-brands fa-youtube"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 QUICK LINKS
+            ================================================== -->
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">
+                    Quick Links
+                </h3>
+
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html">
+                            Our Menu
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="catering.html">
+                            Catering &amp; Group Bookings
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="locations.html">
+                            Locations
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =================================================
+                 MENU LINKS
+            ================================================== -->
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">
+                    Our Menu
+                </h3>
+
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="menu.html#pancakes">
+                            Pancakes
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#waffles">
+                            Waffles
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#egg-dishes">
+                            Egg Dishes
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#breakfast-specials">
+                            Breakfast Specials
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#drinks">
+                            Coffee &amp; Drinks
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#kids">
+                            Kids Breakfast
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =================================================
+                 CONTACT / HOURS
+            ================================================== -->
+
+            <div class="footer-column footer-contact-column">
+
+                <h3 class="footer-title">
+                    Visit Us
+                </h3>
+
+
+                <!-- ADDRESS -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+
+                        <i
+                            class="fa-solid fa-location-dot"
+                            aria-hidden="true"
+                        ></i>
+
+                    </span>
+
+                    <div>
+
+                        <span class="footer-contact-label">
+                            Address
+                        </span>
+
+                        <p>
+                            123 Maple Street,
+                            Breakfast Avenue
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PHONE -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+
+                        <i
+                            class="fa-solid fa-phone"
+                            aria-hidden="true"
+                        ></i>
+
+                    </span>
+
+                    <div>
+
+                        <span class="footer-contact-label">
+                            Phone
+                        </span>
+
+                        <a href="tel:+10000000000">
+                            +1 000 000 0000
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+
+                        <i
+                            class="fa-regular fa-envelope"
+                            aria-hidden="true"
+                        ></i>
+
+                    </span>
+
+                    <div>
+
+                        <span class="footer-contact-label">
+                            Email
+                        </span>
+
+                        <a href="mailto:hello@pancakehouse.com">
+                            hello@pancakehouse.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HOURS -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+
+                    </span>
+
+                    <div>
+
+                        <span class="footer-contact-label">
+                            Opening Hours
+                        </span>
+
+                        <p>
+                            Mon – Sun: 7:00 AM – 3:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FOOTER CTA / NEWSLETTER
+    ====================================================== -->
+
+    <div class="footer-newsletter">
+
+        <div class="footer-container footer-newsletter-container">
+
+
+            <div class="footer-newsletter-content">
+
+                <span class="footer-newsletter-label">
+                    Stay in the loop
+                </span>
+
+                <h3>
+                    Get delicious updates from our kitchen.
+                </h3>
+
+                <p>
+                    Sign up for breakfast specials,
+                    new menu items and exclusive offers.
+                </p>
+
+            </div>
+
+
+            <form
+                class="footer-newsletter-form"
+                action="#"
+                method="post"
+            >
+
+                <label
+                    for="footerEmail"
+                    class="sr-only"
+                >
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="footerEmail"
+                    name="email"
+                    placeholder="Enter your email address"
+                    autocomplete="email"
+                    required
+                >
+
+                <button
+                    type="submit"
+                    class="footer-newsletter-btn"
+                >
+
+                    Subscribe
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FOOTER BOTTOM
+    ====================================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-container footer-bottom-container">
+
+
+            <p class="footer-copyright">
+
+                © 2026
+                <strong>Pancake &amp; Breakfast House</strong>.
+                All Rights Reserved.
+
+            </p>
+
+
+            <div class="footer-bottom-links">
+
+                <a href="privacy.html">
+                    Privacy Policy
+                </a>
+
+                <a href="terms.html">
+                    Terms &amp; Conditions
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+<!-- Scroll to Top Button -->
+<button
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    type="button"
+    aria-label="Scroll to top"
+    title="Back to top"
+>
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+
+    <script
+        src="js/script.js"
+    ></script>
+    <script src="js/site-settings.js"></script>
+
+</body>
+
+</html>

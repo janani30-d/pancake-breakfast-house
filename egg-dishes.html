@@ -1,0 +1,2485 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <!-- =====================================================
+         BASIC META
+    ====================================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Pancake & Breakfast House - Delicious pancakes, waffles, eggs and breakfast favorites."
+    >
+
+    <meta
+        name="keywords"
+        content="pancake, breakfast, waffles, brunch, breakfast restaurant"
+    >
+
+    <meta
+        name="author"
+        content="Pancake & Breakfast House"
+    >
+
+
+    <!-- =====================================================
+         TITLE
+    ====================================================== -->
+
+    <title>
+        Pancake & Breakfast House
+    </title>
+    <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+
+    <!-- =====================================================
+         GOOGLE FONTS
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header
+        class="site-header"
+        id="siteHeader"
+    >
+
+        <div class="header-container">
+
+
+            <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+            <a
+                href="index.html"
+                class="site-logo"
+                aria-label="Pancake & Breakfast House Home"
+            >
+
+                <img
+                    src="images/logo.png"
+                    alt="Pancake & Breakfast House Logo"
+                >
+
+            </a>
+
+
+            <!-- =================================================
+                 MAIN NAVIGATION
+
+                 IMPORTANT:
+                 This SAME navigation is used for:
+                 Desktop
+                 Tablet
+                 iPad Pro
+                 iPad Mini
+                 Mobile
+            ================================================== -->
+
+            <nav
+                class="main-nav"
+                id="mainNav"
+                aria-label="Main Navigation"
+            >
+
+
+                <!-- =============================================
+                     HOME DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                    >
+
+                        <span>
+                            Home
+                        </span>
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a
+                            href="index.html"
+                            
+                        >
+                            Home 1
+                        </a>
+
+                        <a
+                            href="home2.html"
+                        >
+                            Home 2
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     ABOUT
+                ============================================== -->
+
+                <a
+                    href="about.html"
+                    class="nav-link"
+                >
+                    About
+                </a>
+
+
+                <!-- =============================================
+                     MENU DROPDOWN
+                ============================================== -->
+
+                <div class="nav-dropdown">
+
+                    <button
+                        type="button"
+                        class="nav-dropdown-toggle"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                    >
+
+                        <span>
+                            Menu
+                        </span>
+
+                        <i
+                            class="fa-solid fa-chevron-down"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a
+                            href="pancake.html"
+                        >
+                            Pancakes
+                        </a>
+
+                        <a
+                            href="waffles.html"
+                        >
+                            Waffles
+                        </a>
+
+                        <a
+                            href="egg-dishes.html"
+                            class="active"
+                        >
+                            Egg Dishes
+                        </a>
+
+                        
+
+                    </div>
+
+                </div>
+
+
+                <!-- =============================================
+                     CATERING & GROUP BOOKINGS
+                ============================================== -->
+
+                <a
+                    href="catering.html"
+                    class="nav-link"
+                >
+                    Catering &amp; Group Bookings
+                </a>
+
+
+                <!-- =============================================
+                     LOCATIONS
+                ============================================== -->
+
+                <a
+                    href="locations.html"
+                    class="nav-link"
+                >
+                    Locations
+                </a>
+
+
+                <!-- =============================================
+                     CONTACT
+                ============================================== -->
+
+                <a
+                    href="contact.html"
+                    class="nav-link"
+                >
+                    Contact
+                </a>
+
+
+                <!-- =============================================
+                     HEADER CONTROLS
+
+                     IMPORTANT:
+                     These remain INSIDE the SAME main-nav.
+
+                     Desktop:
+                     RTL + Dark Mode + Login → right side
+
+                     Responsive:
+                     RTL + Dark Mode + Login → inside
+                     hamburger menu
+                ============================================== -->
+
+                <div
+                    class="header-controls"
+                    id="headerControls"
+                >
+
+
+                    <!-- =========================================
+                         RTL BUTTON
+                    ========================================== -->
+
+                    <button
+                        type="button"
+                        class="header-control-btn rtl-toggle"
+                        id="rtlToggle"
+                        aria-label="Switch to RTL mode"
+                        title="RTL Mode"
+                    >
+
+                        <i
+                            class="fa-solid fa-right-left"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <!-- =========================================
+                         DARK MODE BUTTON
+                    ========================================== -->
+
+                    <button
+                        type="button"
+                        class="header-control-btn dark-mode-toggle"
+                        id="darkModeToggle"
+                        aria-label="Enable dark mode"
+                        title="Dark Mode"
+                    >
+
+                        <i
+                            class="fa-solid fa-moon"
+                            aria-hidden="true"
+                        ></i>
+
+                    </button>
+
+
+                    <!-- =========================================
+                         LOGIN
+                    ========================================== -->
+
+                    <a
+                        href="login.html"
+                        class="login-btn"
+                    >
+
+                        <i
+                            class="fa-regular fa-user"
+                            aria-hidden="true"
+                        ></i>
+
+                        <span>
+                            Login
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </nav>
+
+
+            <!-- =================================================
+                 HAMBURGER BUTTON
+
+                 Controls the SAME #mainNav
+            ================================================== -->
+
+            <button
+                type="button"
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="mainNav"
+            >
+
+                <i
+                    class="fa-solid fa-bars"
+                    aria-hidden="true"
+                ></i>
+
+            </button>
+
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <main id="mainContent">
+
+<!-- =========================================================
+     EGG DISHES — SECTION 01: HERO
+========================================================= -->
+
+<section class="eggs-hero" id="eggsHero">
+
+    <!-- BACKGROUND IMAGE -->
+    <div class="eggs-hero-background">
+        <img
+            src="images/eggs-hero.jpg"
+            alt="Freshly prepared eggs and toast served for breakfast"
+        >
+    </div>
+
+    <!-- DARK OVERLAY -->
+    <div class="eggs-hero-overlay"></div>
+
+    <!-- HERO CONTENT -->
+    <div class="eggs-hero-container">
+
+        <div class="eggs-hero-content">
+
+            <!-- EYEBROW -->
+            <span class="eggs-hero-eyebrow">
+                FRESH FROM OUR KITCHEN
+            </span>
+
+            <!-- HEADING -->
+            <h1 class="eggs-hero-title">
+                Eggs Your Way.
+                <span>Mornings Your Way.</span>
+            </h1>
+
+            <!-- DESCRIPTION -->
+            <p class="eggs-hero-description">
+                From perfectly folded omelettes to golden sunny-side-up
+                favorites, discover fresh egg dishes made with care
+                and served just the way you love them.
+            </p>
+
+            <!-- HERO BUTTONS -->
+            <div class="eggs-hero-actions">
+
+                <a
+                    href="#eggsMenu"
+                    class="eggs-hero-button eggs-hero-button-primary"
+                >
+                    <span>Explore Egg Dishes</span>
+                    <i class="fas fa-arrow-down" aria-hidden="true"></i>
+                </a>
+
+                <a
+                    href="#"
+                    class="eggs-hero-button eggs-hero-button-secondary"
+                >
+                    <span>Order Now</span>
+                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+
+            </div>
+
+            <!-- HERO FOOTNOTE -->
+            <div class="eggs-hero-note">
+
+                <span class="eggs-hero-note-line"></span>
+
+                <p>
+                    Fresh eggs. Simple ingredients. Beautiful mornings.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- SCROLL INDICATOR -->
+    <a
+        href="#eggsStory"
+        class="eggs-hero-scroll"
+        aria-label="Scroll to our egg story"
+    >
+        <span class="eggs-hero-scroll-text">DISCOVER MORE</span>
+
+        <span class="eggs-hero-scroll-line"></span>
+    </a>
+
+</section>
+
+<!-- =========================================================
+     NEXT SECTION TARGETS
+
+     Section 02: id="eggsStory"
+     Section 03: id="eggsMenu"
+========================================================= -->
+<!-- =========================================================
+     EGG DISHES — SECTION 02: OUR EGG STORY
+========================================================= -->
+
+<section class="eggs-story" id="eggsStory">
+
+    <div class="eggs-story-container">
+
+        <!-- LEFT: SINGLE MAIN IMAGE -->
+        <div class="eggs-story-visual">
+
+            <div class="eggs-story-image">
+                <img
+                    src="images/eggs-story-main.jpg"
+                    alt="Freshly prepared eggs served with golden toast and herbs"
+                    loading="lazy"
+                >
+            </div>
+
+            <!-- IMAGE LABEL -->
+            <div class="eggs-story-image-label">
+                <span class="eggs-story-image-label-line"></span>
+                <span>FRESH FROM OUR KITCHEN</span>
+            </div>
+
+        </div>
+
+        <!-- RIGHT: STORY CONTENT -->
+        <div class="eggs-story-content">
+
+            <!-- EYEBROW -->
+            <span class="eggs-story-eyebrow">
+                A LITTLE ABOUT OUR EGGS
+            </span>
+
+            <!-- HEADING -->
+            <h2 class="eggs-story-title">
+                Simple Ingredients.
+                <span>Eggsellent Mornings.</span>
+            </h2>
+
+            <!-- DESCRIPTION -->
+            <p class="eggs-story-description">
+                Great mornings begin with the simple things.
+                We prepare every egg dish fresh to order, bringing
+                together comforting flavors, quality ingredients,
+                and the kind of care you can taste in every bite.
+            </p>
+
+            <p class="eggs-story-description-secondary">
+                Whether you love a fluffy omelette, creamy scrambled
+                eggs, or a perfectly cooked classic, there is always
+                something delicious waiting at our table.
+            </p>
+
+            <!-- STORY HIGHLIGHTS -->
+            <div class="eggs-story-highlights">
+
+                <!-- HIGHLIGHT 01 -->
+                <div class="eggs-story-highlight">
+
+                    <span class="eggs-story-highlight-number">
+                        01
+                    </span>
+
+                    <div class="eggs-story-highlight-content">
+                        <h3>Freshly Prepared</h3>
+
+                        <p>
+                            Every dish is made to order for your breakfast.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- HIGHLIGHT 02 -->
+                <div class="eggs-story-highlight">
+
+                    <span class="eggs-story-highlight-number">
+                        02
+                    </span>
+
+                    <div class="eggs-story-highlight-content">
+                        <h3>Made Your Way</h3>
+
+                        <p>
+                            Comforting egg favorites for every kind of morning.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- HIGHLIGHT 03 -->
+                <div class="eggs-story-highlight">
+
+                    <span class="eggs-story-highlight-number">
+                        03
+                    </span>
+
+                    <div class="eggs-story-highlight-content">
+                        <h3>Always Delicious</h3>
+
+                        <p>
+                            Familiar flavors, thoughtful preparation, and a warm welcome.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- CTA LINK -->
+            <a href="#eggsMenu" class="eggs-story-link">
+                <span>Discover Our Egg Menu</span>
+
+                <span class="eggs-story-link-icon" aria-hidden="true">
+                    <i class="fas fa-arrow-right"></i>
+                </span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EGG DISHES — SECTION 03: CLASSIC EGG DISHES
+========================================================= -->
+
+<section class="eggs-classics" id="eggsMenu">
+
+    <div class="eggs-classics-container">
+
+        <!-- SECTION HEADER -->
+        <div class="eggs-classics-header">
+
+            <span class="eggs-classics-eyebrow">
+                BREAKFAST FAVORITES
+            </span>
+
+            <h2 class="eggs-classics-title">
+                Classic Eggs.
+                <span>Made Just Right.</span>
+            </h2>
+
+            <div class="eggs-classics-divider">
+                <span></span>
+                <i class="fas fa-egg" aria-hidden="true"></i>
+                <span></span>
+            </div>
+
+            <p class="eggs-classics-intro">
+                Simple, satisfying, and freshly prepared.
+                Discover the egg dishes that make every morning
+                a little more delicious.
+            </p>
+
+        </div>
+
+        <!-- CLASSIC EGG DISHES GRID -->
+        <div class="eggs-classics-grid">
+
+            <!-- CARD 01: SCRAMBLED EGGS -->
+            <article class="eggs-classic-card">
+
+                <div class="eggs-classic-image">
+
+                    <img
+                        src="images/eggs-classic-scrambled.jpg"
+                        alt="Creamy scrambled eggs served with toasted bread"
+                        loading="lazy"
+                    >
+
+                    <span class="eggs-classic-number">01</span>
+
+                    <span class="eggs-classic-category">
+                        THE CLASSIC
+                    </span>
+
+                </div>
+
+                <div class="eggs-classic-content">
+
+                    <div class="eggs-classic-title-row">
+                        <h3 class="eggs-classic-name">
+                            Classic Scrambled Eggs
+                        </h3>
+
+                        <span class="eggs-classic-price">
+                            $8.50
+                        </span>
+                    </div>
+
+                    <p class="eggs-classic-description">
+                        Soft, creamy scrambled eggs with butter,
+                        fresh herbs, and golden toasted bread.
+                    </p>
+
+                    <a
+                        href="order.html"
+                        class="eggs-classic-order"
+                    >
+                        <span>Order This Dish</span>
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+            <!-- CARD 02: SUNNY-SIDE-UP EGGS -->
+            <article class="eggs-classic-card">
+
+                <div class="eggs-classic-image">
+
+                    <img
+                        src="images/eggs-classic-sunny-side-up.jpg"
+                        alt="Sunny-side-up eggs with golden yolks on a breakfast plate"
+                        loading="lazy"
+                    >
+
+                    <span class="eggs-classic-number">02</span>
+
+                    <span class="eggs-classic-category">
+                        MORNING FAVORITE
+                    </span>
+
+                </div>
+
+                <div class="eggs-classic-content">
+
+                    <div class="eggs-classic-title-row">
+                        <h3 class="eggs-classic-name">
+                            Sunny-Side-Up Eggs
+                        </h3>
+
+                        <span class="eggs-classic-price">
+                            $8.95
+                        </span>
+                    </div>
+
+                    <p class="eggs-classic-description">
+                        Perfectly cooked eggs with bright golden yolks,
+                        cracked pepper, and toasted sourdough.
+                    </p>
+
+                    <a
+                        href="order.html"
+                        class="eggs-classic-order"
+                    >
+                        <span>Order This Dish</span>
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+            <!-- CARD 03: CHEESE OMELETTE -->
+            <article class="eggs-classic-card">
+
+                <div class="eggs-classic-image">
+
+                    <img
+                        src="images/eggs-classic-omelette.jpg"
+                        alt="Fluffy cheese omelette with herbs served for breakfast"
+                        loading="lazy"
+                    >
+
+                    <span class="eggs-classic-number">03</span>
+
+                    <span class="eggs-classic-category">
+                        HOUSE FAVORITE
+                    </span>
+
+                </div>
+
+                <div class="eggs-classic-content">
+
+                    <div class="eggs-classic-title-row">
+                        <h3 class="eggs-classic-name">
+                            Fluffy Cheese Omelette
+                        </h3>
+
+                        <span class="eggs-classic-price">
+                            $10.50
+                        </span>
+                    </div>
+
+                    <p class="eggs-classic-description">
+                        A tender, fluffy omelette filled with melted
+                        cheese and finished with fresh herbs.
+                    </p>
+
+                    <a
+                        href="order.html"
+                        class="eggs-classic-order"
+                    >
+                        <span>Order This Dish</span>
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+            <!-- CARD 04: AVOCADO & EGGS TOAST -->
+            <article class="eggs-classic-card">
+
+                <div class="eggs-classic-image">
+
+                    <img
+                        src="images/eggs-classic-avocado-toast.jpg"
+                        alt="Avocado toast topped with fresh eggs and herbs"
+                        loading="lazy"
+                    >
+
+                    <span class="eggs-classic-number">04</span>
+
+                    <span class="eggs-classic-category">
+                        FRESH & DELICIOUS
+                    </span>
+
+                </div>
+
+                <div class="eggs-classic-content">
+
+                    <div class="eggs-classic-title-row">
+                        <h3 class="eggs-classic-name">
+                            Avocado & Eggs Toast
+                        </h3>
+
+                        <span class="eggs-classic-price">
+                            $11.50
+                        </span>
+                    </div>
+
+                    <p class="eggs-classic-description">
+                        Creamy avocado on toasted sourdough,
+                        topped with eggs and a sprinkle of seasoning.
+                    </p>
+
+                    <a
+                        href="order.html"
+                        class="eggs-classic-order"
+                    >
+                        <span>Order This Dish</span>
+                        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+        <!-- SECTION FOOTNOTE -->
+        <div class="eggs-classics-footer">
+
+            <span class="eggs-classics-footer-line"></span>
+
+            <p>
+                Made fresh to order, just the way breakfast should be.
+            </p>
+
+            <span class="eggs-classics-footer-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     EGG DISHES — SECTION 04: SIGNATURE EGG DISHES
+========================================================= -->
+
+<section class="eggs-signature" id="signatureEggs">
+
+    <div class="eggs-signature-container">
+
+        <!-- SECTION HEADER -->
+
+        <div class="eggs-signature-header">
+
+            <span class="eggs-signature-eyebrow">
+                A LITTLE SOMETHING SPECIAL
+            </span>
+
+            <h2 class="eggs-signature-title">
+                Signature Eggs.
+                <span>Made to Impress.</span>
+            </h2>
+
+            <div class="eggs-signature-divider">
+                <span></span>
+                <i class="fa-solid fa-egg" aria-hidden="true"></i>
+                <span></span>
+            </div>
+
+            <p class="eggs-signature-intro">
+                Discover our signature breakfast creations, featuring
+                fresh ingredients, rich flavors, and beautifully prepared
+                eggs that make every morning feel special.
+            </p>
+
+        </div>
+
+
+        <!-- SIGNATURE DISHES GRID -->
+
+        <div class="eggs-signature-grid">
+
+            <!-- =================================================
+                 CARD 01 — EGGS BENEDICT
+            ================================================== -->
+
+            <article class="eggs-signature-card">
+
+                <div class="eggs-signature-image">
+
+                    <img
+                        src="images/eggs-signature-benedict.jpg"
+                        alt="Eggs Benedict with poached eggs, toasted English muffin and hollandaise sauce"
+                        loading="lazy"
+                    >
+
+                    <div
+                        class="eggs-signature-image-overlay"
+                        aria-hidden="true">
+                    </div>
+
+                    <span class="eggs-signature-number">01</span>
+
+                    <span class="eggs-signature-tag">
+                        HOUSE SIGNATURE
+                    </span>
+
+                    <div class="eggs-signature-image-caption">
+                        <span>A BRUNCH FAVORITE</span>
+                    </div>
+
+                </div>
+
+
+                <div class="eggs-signature-content">
+
+                    <div class="eggs-signature-topline">
+
+                        <span class="eggs-signature-label">
+                            RICH &amp; CLASSIC
+                        </span>
+
+                        <span class="eggs-signature-price">
+                            $12.95
+                        </span>
+
+                    </div>
+
+                    <h3 class="eggs-signature-name">
+                        Classic Eggs Benedict
+                    </h3>
+
+                    <p class="eggs-signature-description">
+                        Perfectly poached eggs on a toasted English muffin,
+                        finished with silky hollandaise sauce and fresh herbs.
+                    </p>
+
+                    <div class="eggs-signature-divider-small"></div>
+
+                    <div class="eggs-signature-footer">
+
+                        <span class="eggs-signature-note">
+                            Poached eggs · Hollandaise
+                        </span>
+
+                        <a
+                            href="order.html"
+                            class="eggs-signature-order"
+                            aria-label="Order Classic Eggs Benedict"
+                        >
+                            <span>Order Now</span>
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true">
+                            </i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 CARD 02 — SHAKSHUKA
+            ================================================== -->
+
+            <article class="eggs-signature-card">
+
+                <div class="eggs-signature-image">
+
+                    <img
+                        src="images/eggs-signature-shakshuka.jpg"
+                        alt="Shakshuka eggs cooked in a rich tomato and pepper sauce with fresh herbs"
+                        loading="lazy"
+                    >
+
+                    <div
+                        class="eggs-signature-image-overlay"
+                        aria-hidden="true">
+                    </div>
+
+                    <span class="eggs-signature-number">02</span>
+
+                    <span class="eggs-signature-tag">
+                        FLAVORFUL FAVORITE
+                    </span>
+
+                    <div class="eggs-signature-image-caption">
+                        <span>WARM &amp; COMFORTING</span>
+                    </div>
+
+                </div>
+
+
+                <div class="eggs-signature-content">
+
+                    <div class="eggs-signature-topline">
+
+                        <span class="eggs-signature-label">
+                            FRESH &amp; SAVORY
+                        </span>
+
+                        <span class="eggs-signature-price">
+                            $11.95
+                        </span>
+
+                    </div>
+
+                    <h3 class="eggs-signature-name">
+                        Garden Shakshuka
+                    </h3>
+
+                    <p class="eggs-signature-description">
+                        Eggs gently cooked in a spiced tomato and pepper
+                        sauce, finished with herbs and served with warm bread.
+                    </p>
+
+                    <div class="eggs-signature-divider-small"></div>
+
+                    <div class="eggs-signature-footer">
+
+                        <span class="eggs-signature-note">
+                            Tomato sauce · Fresh herbs
+                        </span>
+
+                        <a
+                            href="order.html"
+                            class="eggs-signature-order"
+                            aria-label="Order Garden Shakshuka"
+                        >
+                            <span>Order Now</span>
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true">
+                            </i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 CARD 03 — SMOKED SALMON EGGS
+            ================================================== -->
+
+            <article class="eggs-signature-card">
+
+                <div class="eggs-signature-image">
+
+                    <img
+                        src="images/eggs-signature-salmon.jpg"
+                        alt="Gourmet breakfast with eggs, smoked salmon, avocado and toasted bread"
+                        loading="lazy"
+                    >
+
+                    <div
+                        class="eggs-signature-image-overlay"
+                        aria-hidden="true">
+                    </div>
+
+                    <span class="eggs-signature-number">03</span>
+
+                    <span class="eggs-signature-tag">
+                        PREMIUM PICK
+                    </span>
+
+                    <div class="eggs-signature-image-caption">
+                        <span>FRESH &amp; REFINED</span>
+                    </div>
+
+                </div>
+
+
+                <div class="eggs-signature-content">
+
+                    <div class="eggs-signature-topline">
+
+                        <span class="eggs-signature-label">
+                            LIGHT &amp; DELICIOUS
+                        </span>
+
+                        <span class="eggs-signature-price">
+                            $14.50
+                        </span>
+
+                    </div>
+
+                    <h3 class="eggs-signature-name">
+                        Smoked Salmon &amp; Eggs
+                    </h3>
+
+                    <p class="eggs-signature-description">
+                        Tender eggs served with smoked salmon, creamy
+                        avocado, toasted sourdough and a touch of fresh herbs.
+                    </p>
+
+                    <div class="eggs-signature-divider-small"></div>
+
+                    <div class="eggs-signature-footer">
+
+                        <span class="eggs-signature-note">
+                            Smoked salmon · Avocado
+                        </span>
+
+                        <a
+                            href="order.html"
+                            class="eggs-signature-order"
+                            aria-label="Order Smoked Salmon and Eggs"
+                        >
+                            <span>Order Now</span>
+                            <i
+                                class="fa-solid fa-arrow-right"
+                                aria-hidden="true">
+                            </i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <!-- SECTION FOOTNOTE -->
+
+        <div class="eggs-signature-note">
+
+            <span class="eggs-signature-note-line"></span>
+
+            <p class="eggs-signature-note-text">
+                Thoughtfully prepared. Beautifully served. Made for memorable mornings.
+            </p>
+
+            <span class="eggs-signature-note-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- END SECTION 04 — SIGNATURE EGG DISHES -->
+ <!-- =========================================================
+     SECTION 05 — BUILD YOUR EGG BREAKFAST
+========================================================== -->
+
+<section class="eggs-custom" id="buildYourBreakfast">
+
+    <div class="eggs-custom-container">
+
+        <!-- SECTION HEADER -->
+
+        <div class="eggs-custom-header">
+
+            <span class="eggs-custom-eyebrow">
+                YOUR BREAKFAST, YOUR WAY
+            </span>
+
+            <h2 class="eggs-custom-title">
+                Make It
+                <span>Your Own.</span>
+            </h2>
+
+            <div class="eggs-custom-divider">
+                <span></span>
+                <i class="fa-solid fa-egg" aria-hidden="true"></i>
+                <span></span>
+            </div>
+
+            <p class="eggs-custom-intro">
+                Your morning, your choices. Pick your favorite egg style,
+                pair it with delicious sides, and create a breakfast
+                that's perfectly yours.
+            </p>
+
+        </div>
+
+
+        <!-- CUSTOM BREAKFAST CONTENT -->
+
+        <div class="eggs-custom-layout">
+
+            <!-- LEFT: FOOD IMAGE -->
+
+            <div class="eggs-custom-visual">
+
+                <div class="eggs-custom-image-frame">
+
+                    <img
+                        src="images/eggs-custom-breakfast.jpg"
+                        alt="Freshly prepared eggs served with toast, avocado and breakfast sides"
+                        class="eggs-custom-image"
+                        loading="lazy"
+                    >
+
+                    <div class="eggs-custom-image-overlay"></div>
+
+                    <div class="eggs-custom-image-label">
+
+                        <span class="eggs-custom-label-icon">
+                            <i class="fa-solid fa-heart"
+                               aria-hidden="true"></i>
+                        </span>
+
+                        <div class="eggs-custom-label-content">
+                            <span class="eggs-custom-label-small">
+                                MADE FRESH FOR YOU
+                            </span>
+
+                            <span class="eggs-custom-label-title">
+                                A Better Breakfast
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- IMAGE FOOTNOTE -->
+
+                <div class="eggs-custom-visual-note">
+
+                    <span class="eggs-custom-note-line"></span>
+
+                    <p>
+                        Fresh ingredients. Endless combinations.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT: CUSTOMIZATION OPTIONS -->
+
+            <div class="eggs-custom-options">
+
+                <div class="eggs-custom-options-heading">
+
+                    <span class="eggs-custom-step">
+                        STEP 01
+                    </span>
+
+                    <h3>Choose Your Egg Style</h3>
+
+                    <p>
+                        How would you like your eggs prepared?
+                    </p>
+
+                </div>
+
+
+                <!-- EGG STYLE OPTIONS -->
+
+                <div class="eggs-custom-style-grid">
+
+                    <label class="eggs-custom-choice">
+
+                        <input
+                            type="radio"
+                            name="eggStyle"
+                            value="scrambled"
+                            checked
+                        >
+
+                        <span class="eggs-custom-choice-inner">
+
+                            <span class="eggs-custom-choice-icon">
+                                <i class="fa-solid fa-egg"
+                                   aria-hidden="true"></i>
+                            </span>
+
+                            <span class="eggs-custom-choice-name">
+                                Scrambled
+                            </span>
+
+                        </span>
+
+                    </label>
+
+
+                    <label class="eggs-custom-choice">
+
+                        <input
+                            type="radio"
+                            name="eggStyle"
+                            value="sunny-side-up"
+                        >
+
+                        <span class="eggs-custom-choice-inner">
+
+                            <span class="eggs-custom-choice-icon">
+                                <i class="fa-solid fa-sun"
+                                   aria-hidden="true"></i>
+                            </span>
+
+                            <span class="eggs-custom-choice-name">
+                                Sunny Side Up
+                            </span>
+
+                        </span>
+
+                    </label>
+
+
+                    <label class="eggs-custom-choice">
+
+                        <input
+                            type="radio"
+                            name="eggStyle"
+                            value="omelette"
+                        >
+
+                        <span class="eggs-custom-choice-inner">
+
+                            <span class="eggs-custom-choice-icon">
+                                <i class="fa-solid fa-utensils"
+                                   aria-hidden="true"></i>
+                            </span>
+
+                            <span class="eggs-custom-choice-name">
+                                Omelette
+                            </span>
+
+                        </span>
+
+                    </label>
+
+
+                    <label class="eggs-custom-choice">
+
+                        <input
+                            type="radio"
+                            name="eggStyle"
+                            value="poached"
+                        >
+
+                        <span class="eggs-custom-choice-inner">
+
+                            <span class="eggs-custom-choice-icon">
+                                <i class="fa-solid fa-leaf"
+                                   aria-hidden="true"></i>
+                            </span>
+
+                            <span class="eggs-custom-choice-name">
+                                Poached
+                            </span>
+
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- STEP 02: SIDES -->
+
+                <div class="eggs-custom-sides">
+
+                    <div class="eggs-custom-options-heading">
+
+                        <span class="eggs-custom-step">
+                            STEP 02
+                        </span>
+
+                        <h3>Add Your Favorite Sides</h3>
+
+                        <p>
+                            Choose the extras you'd love on your plate.
+                        </p>
+
+                    </div>
+
+
+                    <div class="eggs-custom-sides-list">
+
+                        <label class="eggs-custom-side">
+
+                            <span class="eggs-custom-side-info">
+                                <span class="eggs-custom-side-icon">
+                                    <i class="fa-solid fa-bread-slice"
+                                       aria-hidden="true"></i>
+                                </span>
+
+                                <span class="eggs-custom-side-name">
+                                    Buttered Toast
+                                </span>
+                            </span>
+
+                            <span class="eggs-custom-side-action">
+                                <span class="eggs-custom-side-price">
+                                    +$2.00
+                                </span>
+
+                                <input
+                                    type="checkbox"
+                                    name="eggSides"
+                                    value="buttered-toast"
+                                >
+
+                            </span>
+
+                        </label>
+
+
+                        <label class="eggs-custom-side">
+
+                            <span class="eggs-custom-side-info">
+                                <span class="eggs-custom-side-icon">
+                                    <i class="fa-solid fa-seedling"
+                                       aria-hidden="true"></i>
+                                </span>
+
+                                <span class="eggs-custom-side-name">
+                                    Fresh Avocado
+                                </span>
+                            </span>
+
+                            <span class="eggs-custom-side-action">
+                                <span class="eggs-custom-side-price">
+                                    +$3.00
+                                </span>
+
+                                <input
+                                    type="checkbox"
+                                    name="eggSides"
+                                    value="fresh-avocado"
+                                >
+
+                            </span>
+
+                        </label>
+
+
+                        <label class="eggs-custom-side">
+
+                            <span class="eggs-custom-side-info">
+                                <span class="eggs-custom-side-icon">
+                                    <i class="fa-solid fa-bowl-food"
+                                       aria-hidden="true"></i>
+                                </span>
+
+                                <span class="eggs-custom-side-name">
+                                    Crispy Hash Browns
+                                </span>
+                            </span>
+
+                            <span class="eggs-custom-side-action">
+                                <span class="eggs-custom-side-price">
+                                    +$2.50
+                                </span>
+
+                                <input
+                                    type="checkbox"
+                                    name="eggSides"
+                                    value="hash-browns"
+                                >
+
+                            </span>
+
+                        </label>
+
+
+                        <label class="eggs-custom-side">
+
+                            <span class="eggs-custom-side-info">
+                                <span class="eggs-custom-side-icon">
+                                    <i class="fa-solid fa-cheese"
+                                       aria-hidden="true"></i>
+                                </span>
+
+                                <span class="eggs-custom-side-name">
+                                    Cheddar Cheese
+                                </span>
+                            </span>
+
+                            <span class="eggs-custom-side-action">
+                                <span class="eggs-custom-side-price">
+                                    +$1.50
+                                </span>
+
+                                <input
+                                    type="checkbox"
+                                    name="eggSides"
+                                    value="cheddar-cheese"
+                                >
+
+                            </span>
+
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CUSTOMIZATION NOTE -->
+
+                <div class="eggs-custom-bottom-note">
+
+                    <i class="fa-solid fa-circle-info"
+                       aria-hidden="true"></i>
+
+                    <p>
+                        Freshly prepared with care, just the way you like it.
+                    </p>
+
+                </div>
+
+
+                <!-- ACTION BUTTON -->
+
+                <div class="eggs-custom-action">
+
+                    <a href="contact.html" class="eggs-custom-button">
+                        <span>Order Your Breakfast</span>
+
+                        <i class="fa-solid fa-arrow-right"
+                           aria-hidden="true"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 06 — BREAKFAST COMBO OFFERS
+========================================================== -->
+
+<section class="eggs-combos" id="breakfastCombos">
+
+    <div class="eggs-combos-container">
+
+        <!-- SECTION HEADER -->
+
+        <div class="eggs-combos-header">
+
+            <span class="eggs-combos-eyebrow">
+                THE PERFECT PAIRING
+            </span>
+
+            <h2 class="eggs-combos-title">
+                Breakfast Combos.
+                <span>Made for Mornings.</span>
+            </h2>
+
+            <div class="eggs-combos-divider">
+                <span></span>
+                <i class="fa-solid fa-utensils" aria-hidden="true"></i>
+                <span></span>
+            </div>
+
+            <p class="eggs-combos-intro">
+                Your favorite breakfast flavors, brought together on one plate.
+                Discover our thoughtfully prepared combos for a delicious start
+                to your day.
+            </p>
+
+        </div>
+
+
+        <!-- COMBO CARDS -->
+
+        <div class="eggs-combos-grid">
+
+
+            <!-- COMBO 01 — CLASSIC MORNING -->
+
+            <article class="eggs-combo-card">
+
+                <div class="eggs-combo-image-wrap">
+
+                    <img
+                        src="images/eggs-combo-classic.jpg"
+                        alt="Classic breakfast combo with scrambled eggs, buttered toast and hash browns"
+                        class="eggs-combo-image"
+                        loading="lazy"
+                    >
+
+                    <div class="eggs-combo-image-overlay"></div>
+
+                    <span class="eggs-combo-number">01</span>
+
+                    <span class="eggs-combo-tag">
+                        THE CLASSIC
+                    </span>
+
+                    <div class="eggs-combo-image-caption">
+                        <i class="fa-solid fa-star" aria-hidden="true"></i>
+                        <span>A MORNING FAVORITE</span>
+                    </div>
+
+                </div>
+
+
+                <div class="eggs-combo-content">
+
+                    <div class="eggs-combo-topline">
+
+                        <span class="eggs-combo-category">
+                            COMFORT BREAKFAST
+                        </span>
+
+                        <span class="eggs-combo-price">
+                            $10.95
+                        </span>
+
+                    </div>
+
+                    <h3 class="eggs-combo-name">
+                        Classic Morning
+                    </h3>
+
+                    <p class="eggs-combo-description">
+                        Fluffy scrambled eggs, golden buttered toast,
+                        and crispy hash browns for a comforting start.
+                    </p>
+
+
+                    <div class="eggs-combo-includes">
+
+                        <span>
+                            <i class="fa-solid fa-check" aria-hidden="true"></i>
+                            Scrambled Eggs
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-check" aria-hidden="true"></i>
+                            Buttered Toast
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-check" aria-hidden="true"></i>
+                            Hash Browns
+                        </span>
+
+                    </div>
+
+
+                    <div class="eggs-combo-divider-small"></div>
+
+
+                    <div class="eggs-combo-footer">
+
+                        <span class="eggs-combo-footer-note">
+                            Freshly prepared daily
+                        </span>
+
+                        <a href="contact.html" class="eggs-combo-order">
+                            <span>Order Now</span>
+                            <i class="fa-solid fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- COMBO 02 — GARDEN FRESH -->
+
+            <article class="eggs-combo-card">
+
+                <div class="eggs-combo-image-wrap">
+
+                    <img
+                        src="images/eggs-combo-garden.jpg"
+                        alt="Garden fresh breakfast with eggs, avocado toast and fresh greens"
+                        class="eggs-combo-image"
+                        loading="lazy"
+                    >
+
+                    <div class="eggs-combo-image-overlay"></div>
+
+                    <span class="eggs-combo-number">02</span>
+
+                    <span class="eggs-combo-tag">
+                        FRESH & LIGHT
+                    </span>
+
+                    <div class="eggs-combo-image-caption">
+                        <i class="fa-solid fa-seedling" aria-hidden="true"></i>
+                        <span>FRESH FROM THE GARDEN</span>
+                    </div>
+
+                </div>
+
+
+                <div class="eggs-combo-content">
+
+                    <div class="eggs-combo-topline">
+
+                        <span class="eggs-combo-category">
+                            GARDEN FAVORITE
+                        </span>
+
+                        <span class="eggs-combo-price">
+                            $12.50
+                        </span>
+
+                    </div>
+
+                    <h3 class="eggs-combo-name">
+                        Garden Fresh
+                    </h3>
+
+                    <p class="eggs-combo-description">
+                        Perfectly cooked eggs with creamy avocado toast
+                        and a refreshing side of seasonal greens.
+                    </p>
+
+
+                    <div class="eggs-combo-includes">
+
+                        <span>
+                            <i class="fa-solid fa-check" aria-hidden="true"></i>
+                            Fresh Eggs
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-check" aria-hidden="true"></i>
+                            Avocado Toast
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-check" aria-hidden="true"></i>
+                            Seasonal Greens
+                        </span>
+
+                    </div>
+
+
+                    <div class="eggs-combo-divider-small"></div>
+
+
+                    <div class="eggs-combo-footer">
+
+                        <span class="eggs-combo-footer-note">
+                            Freshly prepared daily
+                        </span>
+
+                        <a href="contact.html" class="eggs-combo-order">
+                            <span>Order Now</span>
+                            <i class="fa-solid fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- COMBO 03 — HEARTY BREAKFAST -->
+
+            <article class="eggs-combo-card">
+
+                <div class="eggs-combo-image-wrap">
+
+                    <img
+                        src="images/eggs-combo-hearty.jpg"
+                        alt="Hearty breakfast platter with eggs, breakfast potatoes and toast"
+                        class="eggs-combo-image"
+                        loading="lazy"
+                    >
+
+                    <div class="eggs-combo-image-overlay"></div>
+
+                    <span class="eggs-combo-number">03</span>
+
+                    <span class="eggs-combo-tag">
+                        A HEARTY START
+                    </span>
+
+                    <div class="eggs-combo-image-caption">
+                        <i class="fa-solid fa-heart" aria-hidden="true"></i>
+                        <span>BIG FLAVOR, FULL PLATE</span>
+                    </div>
+
+                </div>
+
+
+                <div class="eggs-combo-content">
+
+                    <div class="eggs-combo-topline">
+
+                        <span class="eggs-combo-category">
+                            HEARTY BREAKFAST
+                        </span>
+
+                        <span class="eggs-combo-price">
+                            $13.95
+                        </span>
+
+                    </div>
+
+                    <h3 class="eggs-combo-name">
+                        Hearty Breakfast
+                    </h3>
+
+                    <p class="eggs-combo-description">
+                        Delicious eggs served with seasoned breakfast
+                        potatoes and warm, golden toast.
+                    </p>
+
+
+                    <div class="eggs-combo-includes">
+
+                        <span>
+                            <i class="fa-solid fa-check" aria-hidden="true"></i>
+                            Two Eggs
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-check" aria-hidden="true"></i>
+                            Breakfast Potatoes
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-check" aria-hidden="true"></i>
+                            Golden Toast
+                        </span>
+
+                    </div>
+
+
+                    <div class="eggs-combo-divider-small"></div>
+
+
+                    <div class="eggs-combo-footer">
+
+                        <span class="eggs-combo-footer-note">
+                            Freshly prepared daily
+                        </span>
+
+                        <a href="contact.html" class="eggs-combo-order">
+                            <span>Order Now</span>
+                            <i class="fa-solid fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <!-- SECTION BOTTOM NOTE -->
+
+        <div class="eggs-combos-bottom-note">
+
+            <span class="eggs-combos-note-line"></span>
+
+            <p class="eggs-combos-note-text">
+                Good mornings begin with good food.
+            </p>
+
+            <span class="eggs-combos-note-line"></span>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================================================
+     SECTION 07 — FINAL BREAKFAST CTA
+========================================================== -->
+
+<section class="eggs-cta" id="eggsCta">
+
+    <div class="eggs-cta-background">
+
+        <img
+            src="images/eggs-cta-breakfast.jpg"
+            alt="Fresh breakfast spread prepared for a beautiful morning"
+            class="eggs-cta-background-image"
+            loading="lazy"
+        >
+
+        <div class="eggs-cta-overlay"></div>
+
+    </div>
+
+
+    <div class="eggs-cta-container">
+
+        <div class="eggs-cta-content">
+
+            <span class="eggs-cta-eyebrow">
+                YOUR TABLE IS WAITING
+            </span>
+
+            <div class="eggs-cta-decoration">
+                <span></span>
+                <i class="fa-solid fa-egg" aria-hidden="true"></i>
+                <span></span>
+            </div>
+
+            <h2 class="eggs-cta-title">
+                Make Every Morning
+                <span>A Little More Delicious.</span>
+            </h2>
+
+            <p class="eggs-cta-description">
+                Fresh eggs, comforting flavors, and breakfast favorites
+                prepared just the way you love them. Come hungry and
+                let us make your morning special.
+            </p>
+
+
+            <div class="eggs-cta-actions">
+
+                <a href="menu.html" class="eggs-cta-button eggs-cta-button-primary">
+                    <span>Explore Our Menu</span>
+
+                    <i class="fa-solid fa-arrow-right"
+                       aria-hidden="true"></i>
+                </a>
+
+                <a href="contact.html" class="eggs-cta-button eggs-cta-button-secondary">
+                    <span>Contact Us</span>
+                </a>
+
+            </div>
+
+
+            <div class="eggs-cta-bottom-note">
+
+                <span class="eggs-cta-note-line"></span>
+
+                <p>
+                    GOOD FOOD. WARM MOMENTS. BEAUTIFUL MORNINGS.
+                </p>
+
+                <span class="eggs-cta-note-line"></span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+        </main>
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="site-footer" id="siteFooter">
+
+
+    <!-- =====================================================
+         FOOTER MAIN
+    ====================================================== -->
+
+    <div class="footer-main">
+
+        <div class="footer-container">
+
+
+            <!-- =================================================
+                 BRAND COLUMN
+            ================================================== -->
+
+            <div class="footer-column footer-brand-column">
+
+                <a
+                    href="index.html"
+                    class="footer-logo"
+                    aria-label="Pancake & Breakfast House Home"
+                >
+
+                    <img
+                        src="images/logo.png"
+                        alt="Pancake & Breakfast House Logo"
+                    >
+
+                </a>
+
+
+                <p class="footer-description">
+
+                    Start your day with delicious pancakes,
+                    waffles, eggs and freshly prepared
+                    breakfast favorites made with love.
+
+                </p>
+
+
+                <!-- =============================================
+                     SOCIAL LINKS
+                ============================================== -->
+
+                <div
+                    class="footer-social"
+                    aria-label="Social Media Links"
+                >
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Facebook"
+                        title="Facebook"
+                    >
+
+                        <i
+                            class="fa-brands fa-facebook-f"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="Instagram"
+                        title="Instagram"
+                    >
+
+                        <i
+                            class="fa-brands fa-instagram"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="X"
+                        title="X"
+                    >
+
+                        <i
+                            class="fa-brands fa-x-twitter"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+
+                    <a
+                        href="#"
+                        class="footer-social-link"
+                        aria-label="YouTube"
+                        title="YouTube"
+                    >
+
+                        <i
+                            class="fa-brands fa-youtube"
+                            aria-hidden="true"
+                        ></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 QUICK LINKS
+            ================================================== -->
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">
+                    Quick Links
+                </h3>
+
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html">
+                            Our Menu
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="catering.html">
+                            Catering &amp; Group Bookings
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="locations.html">
+                            Locations
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =================================================
+                 MENU LINKS
+            ================================================== -->
+
+            <div class="footer-column">
+
+                <h3 class="footer-title">
+                    Our Menu
+                </h3>
+
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="menu.html#pancakes">
+                            Pancakes
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#waffles">
+                            Waffles
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#egg-dishes">
+                            Egg Dishes
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#breakfast-specials">
+                            Breakfast Specials
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#drinks">
+                            Coffee &amp; Drinks
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html#kids">
+                            Kids Breakfast
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- =================================================
+                 CONTACT / HOURS
+            ================================================== -->
+
+            <div class="footer-column footer-contact-column">
+
+                <h3 class="footer-title">
+                    Visit Us
+                </h3>
+
+
+                <!-- ADDRESS -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+
+                        <i
+                            class="fa-solid fa-location-dot"
+                            aria-hidden="true"
+                        ></i>
+
+                    </span>
+
+                    <div>
+
+                        <span class="footer-contact-label">
+                            Address
+                        </span>
+
+                        <p>
+                            123 Maple Street,
+                            Breakfast Avenue
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PHONE -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+
+                        <i
+                            class="fa-solid fa-phone"
+                            aria-hidden="true"
+                        ></i>
+
+                    </span>
+
+                    <div>
+
+                        <span class="footer-contact-label">
+                            Phone
+                        </span>
+
+                        <a href="tel:+10000000000">
+                            +1 000 000 0000
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+
+                        <i
+                            class="fa-regular fa-envelope"
+                            aria-hidden="true"
+                        ></i>
+
+                    </span>
+
+                    <div>
+
+                        <span class="footer-contact-label">
+                            Email
+                        </span>
+
+                        <a href="mailto:hello@pancakehouse.com">
+                            hello@pancakehouse.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HOURS -->
+
+                <div class="footer-contact-item">
+
+                    <span class="footer-contact-icon">
+
+                        <i
+                            class="fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i>
+
+                    </span>
+
+                    <div>
+
+                        <span class="footer-contact-label">
+                            Opening Hours
+                        </span>
+
+                        <p>
+                            Mon – Sun: 7:00 AM – 3:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FOOTER CTA / NEWSLETTER
+    ====================================================== -->
+
+    <div class="footer-newsletter">
+
+        <div class="footer-container footer-newsletter-container">
+
+
+            <div class="footer-newsletter-content">
+
+                <span class="footer-newsletter-label">
+                    Stay in the loop
+                </span>
+
+                <h3>
+                    Get delicious updates from our kitchen.
+                </h3>
+
+                <p>
+                    Sign up for breakfast specials,
+                    new menu items and exclusive offers.
+                </p>
+
+            </div>
+
+
+            <form
+                class="footer-newsletter-form"
+                action="#"
+                method="post"
+            >
+
+                <label
+                    for="footerEmail"
+                    class="sr-only"
+                >
+                    Email Address
+                </label>
+
+                <input
+                    type="email"
+                    id="footerEmail"
+                    name="email"
+                    placeholder="Enter your email address"
+                    autocomplete="email"
+                    required
+                >
+
+                <button
+                    type="submit"
+                    class="footer-newsletter-btn"
+                >
+
+                    Subscribe
+
+                    <i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i>
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FOOTER BOTTOM
+    ====================================================== -->
+
+    <div class="footer-bottom">
+
+        <div class="footer-container footer-bottom-container">
+
+
+            <p class="footer-copyright">
+
+                © 2026
+                <strong>Pancake &amp; Breakfast House</strong>.
+                All Rights Reserved.
+
+            </p>
+
+
+            <div class="footer-bottom-links">
+
+                <a href="privacy.html">
+                    Privacy Policy
+                </a>
+
+                <a href="terms.html">
+                    Terms &amp; Conditions
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+<!-- Scroll to Top Button -->
+<button
+    class="scroll-top-btn"
+    id="scrollTopBtn"
+    type="button"
+    aria-label="Scroll to top"
+    title="Back to top"
+>
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+</button>
+
+    <script
+        src="js/script.js"
+    ></script>
+    <script src="js/site-settings.js"></script>
+
+</body>
+
+</html>

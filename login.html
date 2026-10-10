@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | Pancake & Breakfast House</title>
+    <!-- Favicon -->
+
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+    <meta name="description"
+          content="Sign in to Pancake & Breakfast House to manage your reservations and dining experiences.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+<main class="login-page" id="loginPage">
+
+    <!-- =====================================================
+         TOP BAR — LOGO + RTL + DARK MODE
+         No separate website header
+    ====================================================== -->
+
+    <div class="login-topbar">
+
+        <!-- Logo -->
+        <a href="index.html"
+           class="login-topbar-logo"
+           aria-label="Pancake & Breakfast House home">
+
+            <img
+                src="images/logo.png"
+                alt="Pancake & Breakfast House"
+            >
+
+        </a>
+
+        <!-- Right-Side Controls -->
+        <div class="login-topbar-actions">
+
+            <!-- RTL Toggle: Opposite Horizontal Arrows -->
+            <button
+                type="button"
+                class="login-topbar-btn"
+                id="loginRtlToggle"
+                aria-label="Switch to right-to-left layout"
+                aria-pressed="false"
+                title="RTL Mode"
+            >
+
+                <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                >
+                    <!-- Top arrow points right -->
+                    <path
+                        d="M4 7H19M15 3L19 7L15 11"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+
+                    <!-- Bottom arrow points left -->
+                    <path
+                        d="M20 17H5M9 13L5 17L9 21"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </svg>
+
+            </button>
+
+
+            <!-- Dark Mode Toggle -->
+            <button
+                type="button"
+                class="login-topbar-btn"
+                id="loginDarkToggle"
+                aria-label="Enable dark mode"
+                aria-pressed="false"
+                title="Dark Mode"
+            >
+
+                <!-- Moon Icon -->
+                <svg
+                    class="login-moon-icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M20.5 15.3A8.5 8.5 0 0 1 8.7 3.5A8.5 8.5 0 1 0 20.5 15.3Z"
+                        stroke="currentColor"
+                        stroke-width="1.7"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </svg>
+
+                <!-- Sun Icon -->
+                <svg
+                    class="login-sun-icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                >
+                    <circle
+                        cx="12"
+                        cy="12"
+                        r="4"
+                        stroke="currentColor"
+                        stroke-width="1.7"
+                    />
+
+                    <path
+                        d="M12 2V4M12 20V22M4.93 4.93L6.35 6.35M17.65 17.65L19.07 19.07M2 12H4M20 12H22M4.93 19.07L6.35 17.65M17.65 6.35L19.07 4.93"
+                        stroke="currentColor"
+                        stroke-width="1.7"
+                        stroke-linecap="round"
+                    />
+                </svg>
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         LOGIN CONTAINER
+    ====================================================== -->
+
+    <div class="login-container">
+
+        <!-- =================================================
+             LEFT PANEL — BREAKFAST IMAGE
+        ================================================== -->
+
+        <section class="login-visual">
+
+            <!-- Background Image -->
+            <div class="login-visual-image">
+
+                <img
+                    src="images/login-breakfast.jpg"
+                    alt="Fresh pancakes served with berries and maple syrup"
+                    fetchpriority="high"
+                >
+
+            </div>
+
+            <!-- Dark Image Overlay -->
+            <div class="login-visual-overlay"></div>
+
+
+            <!-- Promotional Content -->
+            <div class="login-visual-content">
+
+                <span class="login-visual-eyebrow">
+                    WELCOME BACK
+                </span>
+
+                <h1 class="login-visual-title">
+                    Start Your Day
+                    <span>With Something Good.</span>
+                </h1>
+
+                <p class="login-visual-description">
+                    Sign in to manage your reservations, explore
+                    your favourite breakfast dishes, and keep
+                    your memorable dining experiences close.
+                </p>
+
+                <!-- Image Tagline -->
+                <div class="login-visual-tagline">
+                    <span>FRESH</span>
+                    <i aria-hidden="true"></i>
+                    <span>SHARED</span>
+                    <i aria-hidden="true"></i>
+                    <span>MEMORABLE</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             RIGHT PANEL — LOGIN FORM
+        ================================================== -->
+
+        <section class="login-form-panel">
+
+            <div class="login-form-wrapper">
+
+                <!-- Section Number and Label -->
+                <div class="login-section-label">
+
+                    <span class="login-section-number">
+                        01
+                    </span>
+
+                    <span class="login-section-line"
+                          aria-hidden="true"></span>
+
+                    <span class="login-section-name">
+                        MEMBER LOGIN
+                    </span>
+
+                </div>
+
+
+                <!-- Form Heading -->
+                <div class="login-heading">
+
+                    <span class="login-eyebrow">
+                        WELCOME BACK
+                    </span>
+
+                    <h2 class="login-title">
+                        Good To See
+                        <span>You Again.</span>
+                    </h2>
+
+                    <p class="login-description">
+                        Sign in to continue your breakfast experience with us.
+                    </p>
+
+                </div>
+
+
+                <!-- =================================================
+                     LOGIN FORM
+                ================================================== -->
+
+                <form
+                    class="login-form"
+                    id="loginForm"
+                    action="#"
+                    method="post"
+                >
+
+                    <!-- Email Field -->
+                    <div class="login-field">
+
+                        <label for="loginEmail">
+                            Email Address
+                        </label>
+
+                        <div class="login-input-wrapper">
+
+                            <!-- Email SVG Icon -->
+                            <svg
+                                class="login-input-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                aria-hidden="true"
+                            >
+                                <rect
+                                    x="3.5"
+                                    y="5.5"
+                                    width="17"
+                                    height="13"
+                                    rx="1.5"
+                                    stroke="currentColor"
+                                    stroke-width="1.6"
+                                />
+
+                                <path
+                                    d="M4.5 7L12 12.5L19.5 7"
+                                    stroke="currentColor"
+                                    stroke-width="1.6"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+
+                            <input
+                                type="email"
+                                id="loginEmail"
+                                name="email"
+                                placeholder="Enter your email address"
+                                autocomplete="email"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Password Field -->
+                    <div class="login-field">
+
+                        <label for="loginPassword">
+                            Password
+                        </label>
+
+                        <div class="login-input-wrapper">
+
+                            <!-- Lock SVG Icon -->
+                            <svg
+                                class="login-input-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                aria-hidden="true"
+                            >
+                                <rect
+                                    x="5"
+                                    y="10"
+                                    width="14"
+                                    height="10"
+                                    rx="1.5"
+                                    stroke="currentColor"
+                                    stroke-width="1.6"
+                                />
+
+                                <path
+                                    d="M8 10V7.5A4 4 0 0 1 16 7.5V10"
+                                    stroke="currentColor"
+                                    stroke-width="1.6"
+                                    stroke-linecap="round"
+                                />
+
+                                <circle
+                                    cx="12"
+                                    cy="15"
+                                    r="1"
+                                    fill="currentColor"
+                                />
+                            </svg>
+
+                            <input
+                                type="password"
+                                id="loginPassword"
+                                name="password"
+                                placeholder="Enter your password"
+                                autocomplete="current-password"
+                                required
+                            >
+
+                            <!-- Show / Hide Password -->
+                            <button
+                                type="button"
+                                class="login-password-toggle"
+                                id="loginPasswordToggle"
+                                aria-label="Show password"
+                                aria-pressed="false"
+                            >
+
+                                <svg
+                                    class="login-eye-icon"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        d="M2 12S5.5 5 12 5S22 12 22 12S18.5 19 12 19S2 12 2 12Z"
+                                        stroke="currentColor"
+                                        stroke-width="1.7"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+
+                                    <circle
+                                        cx="12"
+                                        cy="12"
+                                        r="3"
+                                        stroke="currentColor"
+                                        stroke-width="1.7"
+                                    />
+                                </svg>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Remember Me + Forgot Password -->
+                    <div class="login-options">
+
+                        <label class="login-remember">
+
+                            <input
+                                type="checkbox"
+                                id="loginRemember"
+                                name="remember"
+                            >
+
+                            <span class="login-custom-checkbox"></span>
+
+                            <span class="login-remember-text">
+                                Remember me
+                            </span>
+
+                        </label>
+
+                        <a
+                            href="forgot-password.html"
+                            class="login-forgot-link"
+                        >
+                            Forgot Password?
+                        </a>
+
+                    </div>
+
+
+                    <!-- Login Button -->
+                    <button
+                        type="submit"
+                        class="login-submit"
+                    >
+
+                        <span>Login to Your Account</span>
+
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                        >
+                            <path
+                                d="M5 12H19M13 6L19 12L13 18"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+
+                    </button>
+
+                </form>
+
+
+                <!-- =================================================
+                     SOCIAL LOGIN DIVIDER
+                ================================================== -->
+
+                <div class="login-social-divider">
+
+                    <span aria-hidden="true"></span>
+
+                    <p>OR CONTINUE WITH</p>
+
+                    <span aria-hidden="true"></span>
+
+                </div>
+
+
+                <!-- =================================================
+                     SOCIAL LOGIN BUTTONS
+                ================================================== -->
+
+                <div class="login-social-buttons">
+
+                    <!-- Google -->
+                    <button
+                        type="button"
+                        class="login-social-btn login-google-btn"
+                        aria-label="Continue with Google"
+                    >
+
+                        <svg
+                            viewBox="0 0 48 48"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                        >
+                            <path
+                                fill="#EA4335"
+                                d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5Z"
+                            />
+
+                            <path
+                                fill="#4285F4"
+                                d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.73 7.18l7.72 5.99c4.51-4.17 7.05-10.31 7.05-17.64Z"
+                            />
+
+                            <path
+                                fill="#FBBC05"
+                                d="M10.53 28.59A14.4 14.4 0 0 1 9.75 24c0-1.59.27-3.13.76-4.59l-7.98-6.19A23.8 23.8 0 0 0 0 24c0 3.86.92 7.5 2.53 10.78l7.99-6.19Z"
+                            />
+
+                            <path
+                                fill="#34A853"
+                                d="M24 48c6.48 0 11.93-2.13 15.91-5.81l-7.72-5.99c-2.14 1.44-4.89 2.3-8.19 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.99 6.19C6.51 42.62 14.62 48 24 48Z"
+                            />
+                        </svg>
+
+                        <span>Google</span>
+
+                    </button>
+
+
+                    <!-- Facebook -->
+                    <button
+                        type="button"
+                        class="login-social-btn login-facebook-btn"
+                        aria-label="Continue with Facebook"
+                    >
+
+                        <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                        >
+                            <path
+                                fill="#1877F2"
+                                d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24V15.563H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.49 0-1.956.93-1.956 1.885v2.269h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073Z"
+                            />
+                        </svg>
+
+                        <span>Facebook</span>
+
+                    </button>
+
+
+                    <!-- Apple -->
+                    <button
+                        type="button"
+                        class="login-social-btn login-apple-btn"
+                        aria-label="Continue with Apple"
+                    >
+
+                        <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                        >
+                            <path
+                                fill="currentColor"
+                                d="M16.365 1.43c0 1.14-.416 2.2-1.176 3.054-.826.927-2.18 1.64-3.36 1.55-.15-1.09.44-2.23 1.2-3.06.84-.94 2.29-1.64 3.336-1.544ZM20.49 17.25c-.565 1.26-.836 1.824-1.565 2.94-.995 1.525-2.4 3.423-4.137 3.438-1.543.015-1.94-1.004-4.032-.992-2.09.01-2.527 1.01-4.07.996-1.738-.016-3.07-1.73-4.064-3.255-2.78-4.27-3.07-9.28-1.356-11.95 1.22-1.9 3.15-3.01 4.965-3.01 1.846 0 3.008 1.006 4.533 1.006 1.48 0 2.38-1.008 4.514-1.008 1.613 0 3.32.88 4.54 2.4-3.99 2.19-3.34 7.9.672 9.435Z"
+                            />
+                        </svg>
+
+                        <span>Apple</span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- =================================================
+                     CREATE ACCOUNT
+                ================================================== -->
+
+                <p class="login-register-text">
+                    Don't have an account?
+
+                    <a href="register.html">
+                        Create an Account
+                    </a>
+                </p>
+
+
+                <!-- Bottom Tagline -->
+                <p class="login-bottom-tagline">
+
+                    <span>FRESH</span>
+
+                    <i aria-hidden="true"></i>
+
+                    <span>SHARED</span>
+
+                    <i aria-hidden="true"></i>
+
+                    <span>MEMORABLE</span>
+
+                </p>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</main>
+
+
+<!-- Login Page JavaScript -->
+<script src="js/script.js"></script>
+<script src="js/site-settings.js"></script>
+
+</body>
+</html>
