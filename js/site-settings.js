@@ -61,8 +61,8 @@
             const icon = button.querySelector("i");
 
             if (icon) {
-                icon.classList.toggle("fa-right-left", !enabled);
-                icon.classList.toggle("fa-left-right", enabled);
+                icon.classList.remove("fa-left-right");
+icon.classList.add("fa-right-left");
             }
         });
     }

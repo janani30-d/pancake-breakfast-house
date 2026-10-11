@@ -45176,3 +45176,348 @@ html[dir="rtl"] #home2Hero .home2-hero-navigation {
     }
 
 }
+
+
+
+
+
+
+
+
+
+/* =========================================
+   HOME 1 TESTIMONIALS
+   PLAIN THEME BACKGROUND - LIGHT MODE
+========================================= */
+
+.home1-testimonials {
+    position: relative;
+    background: #F4E7E1 !important;
+    background-image: none !important;
+    overflow: hidden;
+}
+
+/* Remove all slide background images */
+.home1-testimonial-background {
+    display: none !important;
+    background-image: none !important;
+}
+
+/* Remove the dark image overlay */
+.home1-testimonial-overlay {
+    display: none !important;
+}
+
+/* Testimonial slide background */
+.home1-testimonial-slide {
+    background: #F4E7E1 !important;
+    background-image: none !important;
+}
+
+/* Content text */
+.home1-testimonial-quote {
+    color: #351C22 !important;
+}
+
+.home1-testimonial-name {
+    color: #7B303B !important;
+}
+
+.home1-testimonial-label {
+    color: #A64D5A !important;
+}
+
+.home1-testimonial-divider {
+    background: #A64D5A !important;
+}
+
+/* Slide navigation dots */
+.home1-testimonial-dot {
+    border-color: #7B303B !important;
+    background: transparent !important;
+}
+
+.home1-testimonial-dot.active {
+    background: #7B303B !important;
+    border-color: #7B303B !important;
+}
+
+/* =========================================
+   DARK MODE - PLAIN BURGUNDY BACKGROUND
+========================================= */
+
+body.dark-mode .home1-testimonials,
+body.dark-mode .home1-testimonial-slide {
+    background: #351C22 !important;
+    background-image: none !important;
+}
+
+body.dark-mode .home1-testimonial-background {
+    display: none !important;
+    background-image: none !important;
+}
+
+body.dark-mode .home1-testimonial-overlay {
+    display: none !important;
+}
+
+/* Dark mode text */
+body.dark-mode .home1-testimonial-quote {
+    color: #FFF5F0 !important;
+}
+
+body.dark-mode .home1-testimonial-name {
+    color: #D9A7AE !important;
+}
+
+body.dark-mode .home1-testimonial-label {
+    color: #D9A7AE !important;
+}
+
+body.dark-mode .home1-testimonial-divider {
+    background: #D9A7AE !important;
+}
+
+/* Dark mode dots */
+body.dark-mode .home1-testimonial-dot {
+    border-color: #D9A7AE !important;
+    background: transparent !important;
+}
+
+body.dark-mode .home1-testimonial-dot.active {
+    background: #D9A7AE !important;
+    border-color: #D9A7AE !important;
+}
+
+
+
+
+
+
+
+
+
+/* =========================================
+   RTL TOGGLE ICON - KEEP ORIGINAL DIRECTION
+========================================= */
+
+#rtlToggle.rtl-toggle {
+    direction: ltr !important;
+    transform: none !important;
+}
+
+#rtlToggle.rtl-toggle i.fa-right-left {
+    display: inline-block !important;
+    direction: ltr !important;
+    transform: none !important;
+    rotate: 0deg !important;
+}
+
+/* Prevent RTL mode from reversing the icon */
+html[dir="rtl"] #rtlToggle.rtl-toggle,
+html[dir="rtl"] #rtlToggle.rtl-toggle i.fa-right-left {
+    direction: ltr !important;
+    transform: none !important;
+    rotate: 0deg !important;
+}
+
+
+
+/* FIX RTL ICON DIRECTION - HEADER BUTTON */
+
+#rtlToggle i.fa-right-left {
+    transform: scaleX(1) !important;
+    -webkit-transform: scaleX(1) !important;
+    direction: ltr !important;
+}
+
+/* Keep the exact same icon in RTL mode */
+html[dir="rtl"] #rtlToggle i.fa-right-left,
+body.rtl #rtlToggle i.fa-right-left,
+body.rtl-mode #rtlToggle i.fa-right-left {
+    transform: scaleX(1) !important;
+    -webkit-transform: scaleX(1) !important;
+    direction: ltr !important;
+}
+
+/* Prevent the button itself from flipping */
+#rtlToggle {
+    direction: ltr !important;
+    transform: none !important;
+}
+
+html[dir="rtl"] #rtlToggle {
+    direction: ltr !important;
+    transform: none !important;
+}
+
+
+
+
+
+
+
+
+/* =========================================
+   HEADER CONTROL ICON SIZE
+   iPad Mini + iPad Pro
+========================================= */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .site-header .header-controls {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 10px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .site-header .header-control-btn {
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        flex: 0 0 42px !important;
+        width: 42px !important;
+        min-width: 42px !important;
+        max-width: 42px !important;
+
+        height: 42px !important;
+        min-height: 42px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+
+        box-sizing: border-box !important;
+        border-radius: 8px !important;
+    }
+
+    .site-header .header-control-btn i {
+        display: inline-block !important;
+        width: auto !important;
+        min-width: 0 !important;
+        max-width: none !important;
+
+        font-size: 16px !important;
+        line-height: 1 !important;
+        flex: 0 0 auto !important;
+    }
+
+    .site-header .login-btn {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+    }
+}
+
+/* =========================================
+   MOBILE + SMALL TABLETS
+========================================= */
+
+@media (max-width: 767px) {
+
+    .site-header .header-controls {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 8px !important;
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+
+    .site-header .header-control-btn {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: 12px !important;
+
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100% !important;
+        height: 42px !important;
+        padding: 0 12px !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .site-header .header-control-btn i {
+        flex: 0 0 18px !important;
+        width: 18px !important;
+        text-align: center !important;
+        font-size: 15px !important;
+        line-height: 1 !important;
+    }
+}
+
+
+
+
+
+
+
+/* =========================================
+   REGISTER PAGE - IPAD MINI FIX
+   768px to 820px
+========================================= */
+
+@media (min-width: 768px) and (max-width: 820px) {
+
+    .register-page .login-container {
+        width: calc(100% - 32px) !important;
+        max-width: 100% !important;
+        margin: 20px auto !important;
+        gap: 0 !important;
+    }
+
+    .register-page .register-visual {
+        position: relative !important;
+        min-height: 240px !important;
+        height: auto !important;
+        overflow: hidden !important;
+        border-radius: 10px 10px 0 0 !important;
+    }
+
+    .register-page .login-visual-content {
+        position: relative !important;
+        inset: auto !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 32px 28px 26px !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .register-page .login-visual-title {
+        margin: 10px 0 12px !important;
+        font-size: clamp(24px, 3.5vw, 32px) !important;
+        line-height: 1.2 !important;
+        overflow-wrap: break-word !important;
+    }
+
+    .register-page .login-visual-eyebrow,
+    .register-page .login-visual-description,
+    .register-page .login-visual-tagline {
+        position: relative !important;
+        margin-top: 10px !important;
+    }
+
+    .register-page .register-form-panel {
+        width: 100% !important;
+        min-width: 0 !important;
+        padding: 28px !important;
+        box-sizing: border-box !important;
+        border-radius: 0 0 10px 10px !important;
+    }
+
+    .register-page .register-form-wrapper {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+    }
+}

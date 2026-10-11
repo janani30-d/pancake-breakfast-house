@@ -45588,3 +45588,91 @@ html[dir="rtl"] [class$="-information-container"],
 html[dir="rtl"] [class$="-map-container"] {
     margin-inline: auto;
 }
+
+
+
+/* =========================================
+   CATERING EVENT DATE - WHITE CALENDAR ICON
+   DARK MODE
+========================================= */
+
+body.dark-mode #cateringEventDate {
+    color-scheme: dark;
+    color: #FFF5F0 !important;
+    background-color: #281C1F !important;
+    border-color: #684047 !important;
+}
+
+/* Calendar picker icon */
+body.dark-mode #cateringEventDate::-webkit-calendar-picker-indicator {
+    filter: brightness(0) invert(1) !important;
+    opacity: 1 !important;
+    cursor: pointer;
+}
+
+/* Date placeholder / displayed value */
+body.dark-mode #cateringEventDate::-webkit-datetime-edit {
+    color: #FFF5F0 !important;
+}
+
+/* Keep the label readable */
+body.dark-mode label[for="cateringEventDate"] {
+    color: #FFF5F0 !important;
+}
+
+
+
+
+
+
+/* =========================================
+   CONTACT HERO - CENTER CONTENT
+========================================= */
+
+.contact-hero {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.contact-hero-container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin-inline: auto !important;
+    text-align: center !important;
+}
+
+.contact-hero-content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    max-width: 850px !important;
+    margin-inline: auto !important;
+    text-align: center !important;
+}
+
+.contact-hero-eyebrow,
+.contact-hero-title,
+.contact-hero-description {
+    width: 100% !important;
+    text-align: center !important;
+    margin-inline: auto !important;
+}
+
+.contact-hero-title span {
+    display: block;
+    text-align: center !important;
+}
+
+/* RTL support */
+html[dir="rtl"] .contact-hero,
+html[dir="rtl"] .contact-hero-container,
+html[dir="rtl"] .contact-hero-content {
+    text-align: center !important;
+}
