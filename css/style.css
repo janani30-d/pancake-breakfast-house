@@ -45474,3 +45474,117 @@ html[dir="rtl"] .nav-dropdown-toggle.active::after,
 html[dir="rtl"] .nav-dropdown-toggle[aria-expanded="true"]::after {
     bottom: -4px !important;
 }
+
+
+
+
+
+
+
+/* ================================================
+   GLOBAL LEFT & RIGHT SPACING — ALL WEBSITE PAGES
+   Pancake & Breakfast House
+================================================ */
+
+/* Consistent spacing for all shared page containers */
+:root {
+    --site-content-width: 1440px;
+    --site-side-space: 32px;
+}
+
+/* Main website containers */
+.header-container,
+.footer-container,
+[class$="-hero-container"],
+[class$="-story-container"],
+[class$="-philosophy-container"],
+[class$="-believe-container"],
+[class$="-kitchen-container"],
+[class$="-team-container"],
+[class$="-values-container"],
+[class$="-moments-container"],
+[class$="-final-cta-container"],
+[class$="-approach-container"],
+[class$="-categories-container"],
+[class$="-why-container"],
+[class$="-experience-container"],
+[class$="-chef-specials-container"],
+[class$="-testimonial-container"],
+[class$="-signature-container"],
+[class$="-process-container"],
+[class$="-guest-container"],
+[class$="-visit-container"],
+[class$="-occasions-container"],
+[class$="-packages-container"],
+[class$="-how-container"],
+[class$="-enquiry-container"],
+[class$="-faq-container"],
+[class$="-information-container"],
+[class$="-map-container"],
+[class$="-classics-container"],
+[class$="-custom-container"],
+[class$="-combos-container"],
+[class$="-addons-container"],
+[class$="-branches-container"],
+[class$="-nearby-container"] {
+    width: 100%;
+    max-width: var(--site-content-width);
+    margin-inline: auto;
+    padding-inline: var(--site-side-space);
+    box-sizing: border-box;
+}
+
+/* Prevent horizontal overflow across the entire site */
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+    :root {
+        --site-side-space: 40px;
+    }
+}
+
+/* iPad Pro and tablets */
+@media (min-width: 768px) and (max-width: 1199px) {
+    :root {
+        --site-side-space: 28px;
+    }
+}
+
+/* Mobile and small screens */
+@media (max-width: 767px) {
+    :root {
+        --site-side-space: 16px;
+    }
+}
+
+/* Very narrow mobile screens */
+@media (max-width: 380px) {
+    :root {
+        --site-side-space: 12px;
+    }
+}
+
+/* RTL layout support */
+html[dir="rtl"] .header-container,
+html[dir="rtl"] .footer-container,
+html[dir="rtl"] [class$="-hero-container"],
+html[dir="rtl"] [class$="-story-container"],
+html[dir="rtl"] [class$="-philosophy-container"],
+html[dir="rtl"] [class$="-signature-container"],
+html[dir="rtl"] [class$="-enquiry-container"],
+html[dir="rtl"] [class$="-information-container"],
+html[dir="rtl"] [class$="-map-container"] {
+    margin-inline: auto;
+}
