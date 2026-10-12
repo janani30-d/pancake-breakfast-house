@@ -45521,3 +45521,62 @@ html[dir="rtl"] #rtlToggle {
         margin: 0 auto !important;
     }
 }
+
+
+
+
+
+
+/* =========================================
+   CATERING PACKAGES - CENTER LAST CARD
+   iPad Pro: 821px–1199px
+========================================= */
+
+@media (min-width: 821px) and (max-width: 1199px) {
+
+    .catering-packages-grid {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        justify-items: stretch !important;
+        gap: 24px !important;
+    }
+
+    .catering-packages-grid > .catering-packages-card:last-child {
+        grid-column: 1 / -1 !important;
+        justify-self: center !important;
+        width: calc((100% - 24px) / 2) !important;
+        max-width: 100% !important;
+        margin-inline: auto !important;
+        box-sizing: border-box !important;
+    }
+}
+
+
+
+
+
+
+/* =========================================
+   LOCATION BRANCHES - CENTER LAST CARD
+   iPad Pro: 821px–1199px
+========================================= */
+
+@media (min-width: 821px) and (max-width: 1199px) {
+
+    .location-branches-grid {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        justify-items: stretch !important;
+        gap: 24px !important;
+        width: 100% !important;
+    }
+
+    .location-branches-grid > .location-branch-card:last-child {
+        grid-column: 1 / -1 !important;
+        justify-self: center !important;
+        width: calc((100% - 24px) / 2) !important;
+        max-width: 100% !important;
+        margin-inline: auto !important;
+        box-sizing: border-box !important;
+    }
+}
