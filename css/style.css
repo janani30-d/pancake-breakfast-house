@@ -45676,3 +45676,1359 @@ html[dir="rtl"] .contact-hero-container,
 html[dir="rtl"] .contact-hero-content {
     text-align: center !important;
 }
+
+/* =========================================
+   HOME 2 - EDITORIAL SPLIT HERO
+   DISTINCT FROM HOME 1
+========================================= */
+
+.home2-hero {
+    position: relative;
+    width: 100%;
+    min-height: 680px;
+    padding: 55px 5% 85px;
+    background: #FFF5F0 !important;
+    overflow: hidden;
+}
+
+.home2-hero-slider {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    min-height: 540px;
+    margin: 0 auto;
+}
+
+/* Slide layout */
+.home2-hero-slide {
+    position: relative;
+    display: none;
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: center;
+    gap: 45px;
+    min-height: 540px;
+    padding: 35px 0;
+}
+
+.home2-hero-slide.active {
+    display: grid !important;
+}
+
+/* Image on the right */
+.home2-hero-background {
+    position: absolute !important;
+    left: 48% !important;
+    right: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 52% !important;
+    height: 100% !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 12px 100px 12px 12px;
+    overflow: hidden;
+}
+
+/* Remove old dark overlay */
+.home2-hero-overlay {
+    display: none !important;
+}
+
+/* Text content on the left */
+.home2-hero-container {
+    position: relative !important;
+    z-index: 2;
+    grid-column: 1;
+    width: 100% !important;
+    max-width: 550px !important;
+    padding: 30px 0 !important;
+    margin: 0 !important;
+}
+
+.home2-hero-content {
+    width: 100%;
+    max-width: 520px;
+    text-align: left;
+}
+
+/* Eyebrow */
+.home2-hero-eyebrow {
+    display: inline-block;
+    margin-bottom: 22px;
+    color: #A64D5A;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* Heading */
+.home2-hero-title {
+    margin: 0 0 22px;
+    color: #351C22;
+    font-family: "Playfair Display", serif;
+    font-size: clamp(38px, 4.5vw, 62px);
+    font-weight: 600;
+    line-height: 1.12;
+}
+
+.home2-hero-title span {
+    display: block;
+    color: #7B303B;
+}
+
+/* Description */
+.home2-hero-description {
+    max-width: 460px;
+    margin-bottom: 30px;
+    color: #795F62;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+/* CTA buttons */
+.home2-hero-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.home2-hero-button {
+    min-height: 48px;
+    padding: 0 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.home2-hero-button-primary {
+    background: #7B303B !important;
+    color: #FFF5F0 !important;
+    border: 1px solid #7B303B !important;
+}
+
+.home2-hero-button-primary:hover {
+    background: #61232D !important;
+    color: #FFF5F0 !important;
+}
+
+.home2-hero-button-secondary {
+    background: transparent !important;
+    color: #7B303B !important;
+    border: 1px solid #7B303B !important;
+}
+
+.home2-hero-button-secondary:hover {
+    background: #7B303B !important;
+    color: #FFF5F0 !important;
+}
+
+/* Number navigation */
+.home2-hero-navigation {
+    position: absolute;
+    left: 5%;
+    bottom: 32px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.home2-hero-number {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #795F62;
+}
+
+.home2-hero-number-value {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.home2-hero-number-line {
+    width: 0;
+    height: 2px;
+    background: #7B303B;
+    transition: width 0.3s ease;
+}
+
+.home2-hero-number.active {
+    color: #7B303B;
+}
+
+.home2-hero-number.active .home2-hero-number-line {
+    width: 32px;
+}
+
+/* =========================================
+   DARK MODE
+========================================= */
+
+body.dark-mode .home2-hero {
+    background: #351C22 !important;
+}
+
+body.dark-mode .home2-hero-title {
+    color: #FFF5F0;
+}
+
+body.dark-mode .home2-hero-title span {
+    color: #D9A7AE;
+}
+
+body.dark-mode .home2-hero-eyebrow,
+body.dark-mode .home2-hero-number.active {
+    color: #D9A7AE;
+}
+
+body.dark-mode .home2-hero-description {
+    color: #E5D2D0;
+}
+
+body.dark-mode .home2-hero-button-primary {
+    background: #A64D5A !important;
+    border-color: #A64D5A !important;
+}
+
+body.dark-mode .home2-hero-button-secondary {
+    color: #FFF5F0 !important;
+    border-color: #D9A7AE !important;
+}
+
+body.dark-mode .home2-hero-number {
+    color: #E5D2D0;
+}
+
+body.dark-mode .home2-hero-number-line {
+    background: #D9A7AE;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 991px) {
+    .home2-hero {
+        padding: 35px 24px 80px;
+    }
+
+    .home2-hero-slide {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        min-height: 470px;
+    }
+
+    .home2-hero-background {
+        left: 50% !important;
+        width: 50% !important;
+        border-radius: 10px 65px 10px 10px;
+    }
+
+    .home2-hero-title {
+        font-size: 38px;
+    }
+
+    .home2-hero-navigation {
+        left: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .home2-hero {
+        padding: 25px 16px 75px;
+    }
+
+    .home2-hero-slider {
+        min-height: auto;
+    }
+
+    .home2-hero-slide {
+        display: none;
+        grid-template-columns: 1fr;
+        gap: 0;
+        padding: 0;
+        min-height: auto;
+    }
+
+    .home2-hero-slide.active {
+        display: grid !important;
+    }
+
+    .home2-hero-background {
+        position: relative !important;
+        left: auto !important;
+        right: auto !important;
+        top: auto !important;
+        bottom: auto !important;
+        order: 1;
+        width: 100% !important;
+        height: 280px !important;
+        border-radius: 10px 55px 10px 10px;
+    }
+
+    .home2-hero-container {
+        order: 2;
+        grid-column: 1;
+        padding: 25px 5px 10px !important;
+    }
+
+    .home2-hero-content {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .home2-hero-title {
+        font-size: 34px;
+    }
+
+    .home2-hero-description {
+        font-size: 13px;
+    }
+
+    .home2-hero-actions {
+        gap: 10px;
+    }
+
+    .home2-hero-button {
+        min-height: 44px;
+        padding: 0 16px;
+        font-size: 12px;
+    }
+
+    .home2-hero-navigation {
+        position: relative;
+        left: auto;
+        bottom: auto;
+        margin-top: 18px;
+    }
+}
+
+/* RTL */
+html[dir="rtl"] .home2-hero-content {
+    text-align: right;
+}
+
+html[dir="rtl"] .home2-hero-actions {
+    justify-content: flex-start;
+}
+
+html[dir="rtl"] .home2-hero-navigation {
+    left: auto;
+    right: 5%;
+}
+
+@media (max-width: 767px) {
+    html[dir="rtl"] .home2-hero-navigation {
+        right: 16px;
+    }
+}
+
+/* =========================================================
+   HOME 2 – EDITORIAL HERO
+========================================================= */
+
+.h2-editorial-hero {
+    position: relative;
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 100px 6%;
+    background: #FFF5F0;
+    box-sizing: border-box;
+}
+
+.h2-editorial-container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 0.95fr;
+    align-items: center;
+    gap: 65px;
+}
+
+/* CONTENT */
+
+.h2-editorial-content {
+    width: 100%;
+    max-width: 560px;
+}
+
+.h2-editorial-eyebrow {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #A64D5A;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+
+.h2-editorial-title {
+    margin: 0 0 22px;
+    color: #351C22;
+    font-family: "Playfair Display", serif;
+    font-size: clamp(42px, 4.5vw, 64px);
+    font-weight: 700;
+    line-height: 1.12;
+    letter-spacing: -1px;
+}
+
+.h2-editorial-title span {
+    display: block;
+    color: #7B303B;
+}
+
+.h2-editorial-description {
+    max-width: 490px;
+    margin: 0 0 30px;
+    color: #795F62;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.9;
+}
+
+/* BUTTONS */
+
+.h2-editorial-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.h2-editorial-btn {
+    min-height: 48px;
+    padding: 0 23px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.h2-editorial-btn-primary {
+    color: #FFFFFF;
+    background: #7B303B;
+    border-color: #7B303B;
+}
+
+.h2-editorial-btn-primary:hover {
+    color: #FFFFFF;
+    background: #61232D;
+    border-color: #61232D;
+    transform: translateY(-2px);
+}
+
+.h2-editorial-btn-secondary {
+    color: #7B303B;
+    background: transparent;
+    border-color: #7B303B;
+}
+
+.h2-editorial-btn-secondary:hover {
+    color: #FFFFFF;
+    background: #7B303B;
+}
+
+/* HIGHLIGHTS */
+
+.h2-editorial-highlights {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 38px;
+    color: #795F62;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.h2-editorial-dot {
+    width: 5px;
+    height: 5px;
+    flex: 0 0 5px;
+    border-radius: 50%;
+    background: #A64D5A;
+}
+
+/* IMAGE */
+
+.h2-editorial-visual {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: 420px;
+    justify-self: end;
+}
+
+.h2-editorial-visual > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+}
+
+/* IMAGE INFO CARD */
+
+.h2-editorial-image-card {
+    position: absolute;
+    left: -35px;
+    bottom: 35px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    max-width: 270px;
+    padding: 16px 19px;
+    background: #FFFFFF;
+    border: 1px solid #E5D2D0;
+    border-radius: 8px;
+    box-shadow: 0 12px 35px rgba(53, 28, 34, 0.12);
+}
+
+.h2-editorial-image-icon {
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #7B303B;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+.h2-editorial-image-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.h2-editorial-image-info strong {
+    color: #351C22;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.h2-editorial-image-info span {
+    color: #795F62;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.h2-editorial-image-caption {
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    color: #A64D5A;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+body.dark-mode .h2-editorial-hero {
+    background: #24171B;
+}
+
+body.dark-mode .h2-editorial-title {
+    color: #FFF5F0;
+}
+
+body.dark-mode .h2-editorial-title span {
+    color: #D9A7AE;
+}
+
+body.dark-mode .h2-editorial-eyebrow,
+body.dark-mode .h2-editorial-image-caption {
+    color: #D9A7AE;
+}
+
+body.dark-mode .h2-editorial-description,
+body.dark-mode .h2-editorial-highlights {
+    color: #D2BFC1;
+}
+
+body.dark-mode .h2-editorial-dot {
+    background: #D9A7AE;
+}
+
+body.dark-mode .h2-editorial-btn-primary {
+    color: #FFFFFF;
+    background: #A64D5A;
+    border-color: #A64D5A;
+}
+
+body.dark-mode .h2-editorial-btn-primary:hover {
+    background: #7B303B;
+    border-color: #7B303B;
+}
+
+body.dark-mode .h2-editorial-btn-secondary {
+    color: #F4DDE0;
+    border-color: #D9A7AE;
+}
+
+body.dark-mode .h2-editorial-btn-secondary:hover {
+    color: #FFFFFF;
+    background: #7B303B;
+}
+
+body.dark-mode .h2-editorial-image-card {
+    background: #38242A;
+    border-color: #63434A;
+}
+
+body.dark-mode .h2-editorial-image-info strong {
+    color: #FFF5F0;
+}
+
+body.dark-mode .h2-editorial-image-info span {
+    color: #D2BFC1;
+}
+
+body.dark-mode .h2-editorial-image-icon {
+    background: #A64D5A;
+}
+
+/* =========================================================
+   RTL
+========================================================= */
+
+html[dir="rtl"] .h2-editorial-container {
+    direction: rtl;
+}
+
+html[dir="rtl"] .h2-editorial-content {
+    text-align: right;
+}
+
+html[dir="rtl"] .h2-editorial-actions,
+html[dir="rtl"] .h2-editorial-highlights {
+    justify-content: flex-start;
+}
+
+html[dir="rtl"] .h2-editorial-image-card {
+    left: auto;
+    right: -35px;
+}
+
+html[dir="rtl"] .h2-editorial-image-caption {
+    right: auto;
+    left: 0;
+}
+
+html[dir="rtl"] .h2-editorial-btn-primary i {
+    transform: rotate(180deg);
+}
+
+/* =========================================================
+   IPAD PRO – 821px TO 1199px
+========================================================= */
+
+@media (min-width: 821px) and (max-width: 1199px) {
+
+    .h2-editorial-hero {
+        min-height: 570px;
+        padding: 75px 5%;
+    }
+
+    .h2-editorial-container {
+        grid-template-columns: 1fr 0.9fr;
+        gap: 35px;
+    }
+
+    .h2-editorial-title {
+        font-size: 46px;
+    }
+
+    .h2-editorial-description {
+        font-size: 13px;
+    }
+
+    .h2-editorial-visual {
+        height: 340px;
+    }
+
+    .h2-editorial-image-card {
+        left: -18px;
+        bottom: 25px;
+        padding: 13px 15px;
+    }
+
+    html[dir="rtl"] .h2-editorial-image-card {
+        left: auto;
+        right: -18px;
+    }
+}
+
+/* =========================================================
+   IPAD MINI – 768px TO 820px
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 820px) {
+
+    .h2-editorial-hero {
+        min-height: auto;
+        padding: 65px 5%;
+    }
+
+    .h2-editorial-container {
+        grid-template-columns: 1fr 0.9fr;
+        gap: 25px;
+    }
+
+    .h2-editorial-title {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .h2-editorial-eyebrow {
+        font-size: 10px;
+        letter-spacing: 1.3px;
+    }
+
+    .h2-editorial-description {
+        font-size: 12px;
+        line-height: 1.8;
+        margin-bottom: 22px;
+    }
+
+    .h2-editorial-btn {
+        min-height: 43px;
+        padding: 0 15px;
+        font-size: 11px;
+    }
+
+    .h2-editorial-highlights {
+        gap: 8px;
+        margin-top: 25px;
+        font-size: 8px;
+    }
+
+    .h2-editorial-visual {
+        height: 285px;
+    }
+
+    .h2-editorial-image-card {
+        left: -12px;
+        bottom: 18px;
+        gap: 9px;
+        padding: 10px 12px;
+    }
+
+    .h2-editorial-image-icon {
+        width: 34px;
+        height: 34px;
+        flex-basis: 34px;
+        font-size: 14px;
+    }
+
+    .h2-editorial-image-info strong {
+        font-size: 11px;
+    }
+
+    .h2-editorial-image-info span {
+        font-size: 9px;
+    }
+
+    .h2-editorial-image-caption {
+        font-size: 8px;
+    }
+
+    html[dir="rtl"] .h2-editorial-image-card {
+        left: auto;
+        right: -12px;
+    }
+}
+
+/* =========================================================
+   MOBILE – 767px AND BELOW
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .h2-editorial-hero {
+        min-height: auto;
+        padding: 55px 20px 65px;
+    }
+
+    .h2-editorial-container {
+        grid-template-columns: 1fr;
+        gap: 38px;
+    }
+
+    .h2-editorial-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .h2-editorial-eyebrow {
+        margin-bottom: 14px;
+        font-size: 10px;
+        letter-spacing: 1.3px;
+    }
+
+    .h2-editorial-title {
+        margin-bottom: 17px;
+        font-size: clamp(34px, 8vw, 43px);
+        line-height: 1.2;
+    }
+
+    .h2-editorial-description {
+        max-width: 500px;
+        margin: 0 auto 23px;
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    .h2-editorial-actions {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .h2-editorial-btn {
+        min-height: 44px;
+        padding: 0 16px;
+        font-size: 11px;
+    }
+
+    .h2-editorial-highlights {
+        justify-content: center;
+        gap: 8px;
+        margin-top: 25px;
+        font-size: 8px;
+        letter-spacing: 0.7px;
+    }
+
+    .h2-editorial-visual {
+        width: 100%;
+        max-width: 480px;
+        height: 260px;
+        justify-self: center;
+        margin: 0 auto;
+    }
+
+    .h2-editorial-image-card {
+        left: 10px;
+        bottom: 15px;
+        max-width: 235px;
+        padding: 10px 12px;
+    }
+
+    .h2-editorial-image-icon {
+        width: 35px;
+        height: 35px;
+        flex-basis: 35px;
+        font-size: 14px;
+    }
+
+    .h2-editorial-image-info strong {
+        font-size: 11px;
+    }
+
+    .h2-editorial-image-info span {
+        font-size: 9px;
+    }
+
+    .h2-editorial-image-caption {
+        right: 0;
+        bottom: -23px;
+        font-size: 8px;
+    }
+
+    html[dir="rtl"] .h2-editorial-content {
+        text-align: center;
+    }
+
+    html[dir="rtl"] .h2-editorial-image-card {
+        left: auto;
+        right: 10px;
+    }
+
+    html[dir="rtl"] .h2-editorial-image-caption {
+        right: auto;
+        left: 0;
+    }
+}
+
+/* SMALL MOBILE */
+
+@media (max-width: 380px) {
+
+    .h2-editorial-hero {
+        padding: 45px 16px 55px;
+    }
+
+    .h2-editorial-title {
+        font-size: 32px;
+    }
+
+    .h2-editorial-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .h2-editorial-btn {
+        width: 100%;
+    }
+
+    .h2-editorial-visual {
+        height: 220px;
+    }
+
+    .h2-editorial-image-card {
+        max-width: 210px;
+    }
+}
+
+/* =========================================================
+   ENQUIRY PAGE – MAIN LAYOUT
+========================================================= */
+
+.enquiry-layout {
+    width: 100%;
+    min-height: 100vh;
+    background: #FFF5F0;
+}
+
+/* =========================================================
+   ENQUIRY SECTION
+========================================================= */
+
+.enquiry-page {
+    width: 100%;
+    min-height: calc(100vh - 85px);
+    padding: 65px 20px 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF5F0;
+    box-sizing: border-box;
+}
+
+.enquiry-container {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* =========================================================
+   HEADING
+========================================================= */
+
+.enquiry-heading {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.enquiry-eyebrow {
+    display: inline-block;
+    margin-bottom: 12px;
+    color: #A64D5A;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.enquiry-heading h1 {
+    margin: 0 0 14px;
+    color: #351C22;
+    font-family: "Playfair Display", serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.enquiry-heading p {
+    max-width: 570px;
+    margin: 0 auto;
+    color: #795F62;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+/* =========================================================
+   FORM CARD
+========================================================= */
+
+.enquiry-form {
+    width: 100%;
+    padding: 36px 38px;
+    background: #FFFFFF;
+    border: 1px solid #E5D2D0;
+    border-radius: 10px;
+    box-shadow: 0 12px 35px rgba(53, 28, 34, 0.06);
+    box-sizing: border-box;
+}
+
+.enquiry-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px 20px;
+}
+
+/* =========================================================
+   FORM FIELDS
+========================================================= */
+
+.enquiry-field {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.enquiry-field-full {
+    grid-column: 1 / -1;
+}
+
+.enquiry-field label {
+    color: #351C22;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.enquiry-field input,
+.enquiry-field select,
+.enquiry-field textarea {
+    width: 100%;
+    min-height: 47px;
+    padding: 12px 14px;
+    color: #351C22;
+    background: #FFFAF8;
+    border: 1px solid #E5D2D0;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.enquiry-field textarea {
+    min-height: 125px;
+    resize: vertical;
+    line-height: 1.7;
+}
+
+.enquiry-field input::placeholder,
+.enquiry-field textarea::placeholder {
+    color: #A28B8D;
+    font-size: 11px;
+}
+
+.enquiry-field select {
+    cursor: pointer;
+}
+
+.enquiry-field input:focus,
+.enquiry-field select:focus,
+.enquiry-field textarea:focus {
+    border-color: #7B303B;
+    background: #FFFFFF;
+}
+
+/* =========================================================
+   SUBMIT BUTTON
+========================================================= */
+
+.enquiry-submit-btn {
+    min-width: 185px;
+    min-height: 48px;
+    margin-top: 27px;
+    padding: 0 23px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    color: #FFFFFF;
+    background: #7B303B;
+    border: 1px solid #7B303B;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.enquiry-submit-btn:hover {
+    color: #FFFFFF;
+    background: #61232D;
+    border-color: #61232D;
+    transform: translateY(-2px);
+}
+
+.enquiry-submit-btn i {
+    font-size: 11px;
+}
+
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+body.dark-mode .enquiry-layout,
+body.dark-mode .enquiry-page {
+    background: #24171B;
+}
+
+body.dark-mode .enquiry-heading h1 {
+    color: #FFF5F0;
+}
+
+body.dark-mode .enquiry-heading p {
+    color: #D2BFC1;
+}
+
+body.dark-mode .enquiry-eyebrow {
+    color: #D9A7AE;
+}
+
+body.dark-mode .enquiry-form {
+    background: #38242A;
+    border-color: #63434A;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+body.dark-mode .enquiry-field label {
+    color: #FFF5F0;
+}
+
+body.dark-mode .enquiry-field input,
+body.dark-mode .enquiry-field select,
+body.dark-mode .enquiry-field textarea {
+    color: #FFF5F0;
+    background: #2D1D22;
+    border-color: #63434A;
+}
+
+body.dark-mode .enquiry-field input::placeholder,
+body.dark-mode .enquiry-field textarea::placeholder {
+    color: #BFA9AC;
+}
+
+body.dark-mode .enquiry-field select option {
+    color: #FFF5F0;
+    background: #38242A;
+}
+
+body.dark-mode .enquiry-field input:focus,
+body.dark-mode .enquiry-field select:focus,
+body.dark-mode .enquiry-field textarea:focus {
+    border-color: #D9A7AE;
+    background: #2D1D22;
+}
+
+body.dark-mode .enquiry-submit-btn {
+    color: #FFFFFF;
+    background: #A64D5A;
+    border-color: #A64D5A;
+}
+
+body.dark-mode .enquiry-submit-btn:hover {
+    background: #7B303B;
+    border-color: #7B303B;
+}
+
+/* =========================================================
+   RTL MODE
+========================================================= */
+
+html[dir="rtl"] .enquiry-field {
+    text-align: right;
+}
+
+html[dir="rtl"] .enquiry-field input,
+html[dir="rtl"] .enquiry-field select,
+html[dir="rtl"] .enquiry-field textarea {
+    direction: rtl;
+    text-align: right;
+}
+
+html[dir="rtl"] .enquiry-submit-btn {
+    direction: rtl;
+}
+
+html[dir="rtl"] .enquiry-submit-btn i {
+    transform: rotate(180deg);
+}
+
+/* =========================================================
+   IPAD PRO – 821px TO 1199px
+========================================================= */
+
+@media (min-width: 821px) and (max-width: 1199px) {
+
+    .enquiry-page {
+        padding: 55px 35px 65px;
+    }
+
+    .enquiry-container {
+        max-width: 760px;
+    }
+
+    .enquiry-heading h1 {
+        font-size: 35px;
+    }
+
+    .enquiry-form {
+        padding: 32px;
+    }
+}
+
+/* =========================================================
+   IPAD MINI – 768px TO 820px
+========================================================= */
+
+@media (min-width: 768px) and (max-width: 820px) {
+
+    .enquiry-page {
+        min-height: auto;
+        padding: 50px 25px 60px;
+    }
+
+    .enquiry-container {
+        max-width: 680px;
+    }
+
+    .enquiry-heading {
+        margin-bottom: 28px;
+    }
+
+    .enquiry-heading h1 {
+        font-size: 32px;
+    }
+
+    .enquiry-heading p {
+        font-size: 12px;
+    }
+
+    .enquiry-form {
+        padding: 28px;
+    }
+
+    .enquiry-form-grid {
+        gap: 19px 16px;
+    }
+}
+
+/* =========================================================
+   MOBILE – 767px AND BELOW
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .enquiry-page {
+        min-height: auto;
+        padding: 40px 16px 50px;
+    }
+
+    .enquiry-container {
+        max-width: 100%;
+    }
+
+    .enquiry-heading {
+        margin-bottom: 25px;
+    }
+
+    .enquiry-eyebrow {
+        font-size: 10px;
+    }
+
+    .enquiry-heading h1 {
+        font-size: 29px;
+        line-height: 1.3;
+    }
+
+    .enquiry-heading p {
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    .enquiry-form {
+        padding: 23px 18px;
+        border-radius: 8px;
+    }
+
+    .enquiry-form-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .enquiry-field-full {
+        grid-column: auto;
+    }
+
+    .enquiry-field input,
+    .enquiry-field select {
+        min-height: 45px;
+    }
+
+    .enquiry-field textarea {
+        min-height: 115px;
+    }
+
+    .enquiry-submit-btn {
+        width: 100%;
+        margin-top: 23px;
+    }
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 380px) {
+
+    .enquiry-page {
+        padding: 35px 13px 45px;
+    }
+
+    .enquiry-heading h1 {
+        font-size: 26px;
+    }
+
+    .enquiry-form {
+        padding: 20px 15px;
+    }
+}

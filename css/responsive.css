@@ -45580,3 +45580,59 @@ html[dir="rtl"] #rtlToggle {
         box-sizing: border-box !important;
     }
 }
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   ENQUIRY FORM FEEDBACK
+========================================================= */
+
+.enquiry-form-message {
+    display: none;
+    width: 100%;
+    margin: 18px 0 0;
+    padding: 13px 15px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+.enquiry-form-message.success {
+    display: block;
+    color: #285C3B;
+    background: #EAF5EC;
+    border: 1px solid #B9DCC2;
+}
+
+.enquiry-form-message.error {
+    display: block;
+    color: #8A2635;
+    background: #FCEBED;
+    border: 1px solid #E8B9C0;
+}
+
+body.dark-mode .enquiry-form-message.success {
+    color: #C4E9CC;
+    background: #203B2B;
+    border-color: #426B4D;
+}
+
+body.dark-mode .enquiry-form-message.error {
+    color: #FFD0D5;
+    background: #48252D;
+    border-color: #80404B;
+}
+
+.enquiry-submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
