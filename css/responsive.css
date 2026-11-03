@@ -45636,3 +45636,79 @@ body.dark-mode .enquiry-form-message.error {
     cursor: not-allowed;
     transform: none;
 }
+
+
+
+
+
+/* MOBILE SELECT FIELD FIX */
+
+@media (max-width: 767px) {
+
+    .enquiry-field select {
+        width: 100%;
+        max-width: 100%;
+        height: 46px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .enquiry-field {
+        position: relative;
+        width: 100%;
+        min-width: 0;
+    }
+
+}
+
+
+
+
+/* =========================================================
+   ENQUIRY TYPE – MOBILE DROPDOWN WIDTH
+========================================================= */
+
+.enquiry-field {
+    position: relative;
+    min-width: 0;
+    width: 100%;
+}
+
+.enquiry-field select {
+    display: block;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .enquiry-form,
+    .enquiry-form-grid,
+    .enquiry-field {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .enquiry-field select {
+        width: 100% !important;
+        max-width: 100% !important;
+        font-size: 12px;
+    }
+}
+
+/* Enquiry dropdown – small mobile width adjustment */
+
+@media (max-width: 767px) {
+
+    .enquiry-field select {
+        width: calc(100% - 8px) !important;
+        max-width: calc(100% - 8px) !important;
+        box-sizing: border-box !important;
+    }
+
+}

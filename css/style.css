@@ -47032,3 +47032,37 @@ html[dir="rtl"] .enquiry-submit-btn i {
         padding: 20px 15px;
     }
 }
+
+/* =========================================================
+   ENQUIRY SELECT – RTL ARROW SPACING
+========================================================= */
+
+html[dir="rtl"] .enquiry-field select {
+    direction: rtl;
+    text-align: right;
+    padding-left: 35px !important;
+    padding-right: 14px !important;
+    background-position: left 14px center;
+}
+
+/* Ensure arrow has enough space from the border */
+html[dir="rtl"] .enquiry-field select::-ms-expand {
+    margin-left: 12px;
+}
+
+html[dir="rtl"] .enquiry-field select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    padding-left: 38px !important;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23351C22' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+
+    background-repeat: no-repeat;
+    background-position: left 14px center;
+}
+
+body.dark-mode html[dir="rtl"] .enquiry-field select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23FFF5F0' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+}
