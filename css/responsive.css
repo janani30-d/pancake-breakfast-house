@@ -45712,3 +45712,147 @@ body.dark-mode .enquiry-form-message.error {
     }
 
 }
+
+/* =========================================================
+   ENQUIRY DROPDOWN ARROW – RTL FIX
+========================================================= */
+
+html[dir="rtl"] .enquiry-field select {
+    direction: rtl;
+    text-align: right;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    padding-left: 38px !important;
+    padding-right: 14px !important;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23FFF5F0' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+
+    background-repeat: no-repeat;
+    background-position: left 14px center;
+    background-size: 14px;
+}
+
+/* Light mode arrow */
+html[dir="rtl"] body:not(.dark-mode) .enquiry-field select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23351C22' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+}
+
+/* Dark mode arrow */
+html[dir="rtl"] body.dark-mode .enquiry-field select {
+    background-position: left 14px center;
+}
+
+/* Enquiry dropdown – LTR arrow spacing */
+
+html[dir="ltr"] .enquiry-field select {
+    direction: ltr;
+    text-align: left;
+
+    padding-left: 14px !important;
+    padding-right: 38px !important;
+
+    background-position: right 14px center;
+}
+
+/* RTL arrow spacing */
+
+html[dir="rtl"] .enquiry-field select {
+    direction: rtl;
+    text-align: right;
+
+    padding-left: 38px !important;
+    padding-right: 14px !important;
+
+    background-position: left 14px center;
+}
+
+
+
+
+
+/* Normal View – Dropdown Arrow Spacing */
+
+.enquiry-field select {
+    padding-right: 48px !important;
+    background-position: right 18px center !important;
+}
+
+
+
+
+
+
+
+
+/* =====================================================
+   ENQUIRY DROPDOWN – NORMAL VIEW
+===================================================== */
+
+.enquiry-field select {
+    direction: ltr !important;
+    text-align: left !important;
+
+    padding-left: 14px !important;
+    padding-right: 45px !important;
+
+    background-position: right 10px center !important;
+    background-repeat: no-repeat !important;
+    background-size: 14px 14px;
+}
+
+/* =====================================================
+   RTL VIEW – PRESERVE CORRECT ALIGNMENT
+===================================================== */
+
+html[dir="rtl"] .enquiry-field select {
+    direction: rtl !important;
+    text-align: right !important;
+
+    padding-left: 38px !important;
+    padding-right: 14px !important;
+
+    background-position: left 14px center !important;
+}
+/* Normal View */
+.enquiry-field select {
+    padding-right: 14px !important;
+    background-position: right 14px center !important;
+}
+
+/* RTL – Keep Existing Spacing */
+html[dir="rtl"] .enquiry-field select {
+    padding-left: 38px !important;
+    padding-right: 14px !important;
+    background-position: left 14px center !important;
+}
+
+
+
+
+/* NORMAL VIEW – ENQUIRY DROPDOWN ARROW */
+
+html:not([dir="rtl"]) .enquiry-field select {
+    direction: ltr !important;
+    text-align: left !important;
+
+    appearance: none !important;
+    -webkit-appearance: none !important;
+
+    padding-left: 14px !important;
+    padding-right: 35px !important;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23351C22' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") !important;
+
+    background-repeat: no-repeat !important;
+    background-position: right 14px center !important;
+    background-size: 14px !important;
+}
+
+/* NORMAL VIEW – DARK MODE */
+
+html:not([dir="rtl"]) body.dark-mode .enquiry-field select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23FFF5F0' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") !important;
+}
